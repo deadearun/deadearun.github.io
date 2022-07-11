@@ -2,7 +2,7 @@
 
 
 <script src="https://kit.fontawesome.com/5519c56e9e.js" crossorigin="anonymous"></script>
-<script src="//code.tidio.co/xmsfu80ubgrownltucklvbrsbsmbioah.js"  async></script>
+<script src="https://assets.salesmartly.com/js/project_3040_3314_1657543658.js"></script>
 ### 软件简介
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-fly"></i> 数据包络分析(Data envelopment analysis, DEA) 是一种分析决策单元(Decision-making unit, DMU)相对有效性的非参数评价方法，其无需预先给定权重和假设分布，可以直接通过投入与产出数据来确定生产前沿面的结构。作为数学、运筹学与计算机的交叉研究领域，DEA方法在多个领域有着广泛的应用。  
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-book-bookmark"></i>  大部分刚接触DEA的研究人员，可能都会对这类优化模型有着很深的疑惑，不知从何下手。如果想彻底明白DEA模型的机理，必须熟练掌握并运用运筹学的相关知识，包括如何建立、求解、分析优化模型，这意味着较高的学习成本。目前市面上也有一些软件来处理DEA模型，但是免费的软件只能求解简单的CCR/BCC模型，根本无法满足日常的研究需求。这也是我开发本软件的初衷，其中包含了当前DEA研究领域的主流模型，包括基础效率模型、超效率模型、网络DEA模型以及动态Malmquist指数分析，并可以处理存在非期望产出的情形。本文将向您介绍**Dearun**软件的安装、运行以及使用流程，您可以通过下载文中的`实例数据`进行软件操作，便于您更快的上手本软件。  
