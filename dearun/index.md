@@ -6,7 +6,11 @@
 ### 软件简介
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-fly"></i> 数据包络分析(Data envelopment analysis, DEA) 是一种分析决策单元(Decision-making unit, DMU)相对有效性的非参数评价方法，其无需预先给定权重和假设分布，可以直接通过投入与产出数据来确定生产前沿面的结构。作为数学、运筹学与计算机的交叉研究领域，DEA方法在多个领域有着广泛的应用。  
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-book-bookmark"></i>  大部分刚接触DEA的研究人员，可能都会对这类优化模型有着很深的疑惑，不知从何下手。如果想彻底明白DEA模型的机理，必须熟练掌握并运用运筹学的相关知识，包括如何建立、求解、分析优化模型，这意味着较高的学习成本。目前市面上也有一些软件来处理DEA模型，但是免费的软件只能求解简单的CCR/BCC模型，根本无法满足日常的研究需求。这也是我开发本软件的初衷，其中包含了当前DEA研究领域的主流模型，包括基础效率模型、超效率模型、网络DEA模型以及动态Malmquist指数分析，并可以处理存在非期望产出的情形。本文将向您介绍**Dearun**软件的安装、运行以及使用流程，您可以通过下载文中的`实例数据`进行软件操作，便于您更快的上手本软件。  
-&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-right"></i>  如果当前网站访问较慢，或者部分图片无法加载，请点击此网站：[备用链接1](https://dearun.top/dearun/)，[备用链接2](https://dearun.buzz/dearun/)，[备用链接3](https://dearun.club/dearun/)
+&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-right"></i>  如果当前网站访问较慢，或者部分图片无法加载，请点击此网站：[备用链接1](https://dearun.top/dearun/)，[备用链接2](https://dearun.buzz/dearun/)，[备用链接3](https://dearun.club/dearun/)  
+
+{{< admonition type=tip title="License获取与体验" open=True >}}
+为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请，Dearun目前为科研工作提供3天的体验期，**请点击此处填写表单申请：**[申请链接](https://www.dearun.top/application)
+{{< /admonition >}}
 
 ### 版本信息
 #### 版本更新信息
@@ -15,7 +19,8 @@
 > - 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
 **用户小福利：网络DEA模块目前处于开发初期，所以基础的两阶段网络DEA模型无需license即可使用哦~**  
-
+<i class="fa-solid fa-champagne-glasses"></i> **1.1.2 版本更新时间：2022年7月13日**   
+<i class="fa-solid fa-check"></i> 新增共享投入两阶段DEA模型及Centralized网络模型    
 <i class="fa-solid fa-champagne-glasses"></i> **1.1.1 版本更新时间：2022年6月27日**   
 <i class="fa-solid fa-check"></i> 修正当数据量较大时，在模型计算过程中主页面卡顿的问题  
 > 如果您想查看以往版本更新信息，请点击下方`以往版本更新内容`。
@@ -80,7 +85,7 @@
 <img src="\images\安装步骤2.png" width = "300" height = "200" alt="图片无法加载" align=center /></img>
 3. 双击运行桌面上的`Dearun.exe`  
 <img src="\images\应用.png" width = "70" height = "70" alt="图片无法加载" align=center /></img>
-> 如果您的电脑安装了360软件，在使用过程中可能会报错，请将`Dearun.exe`添加为信任文件  
+> **如果您的电脑安装了360软件，由于软件没有数字签名，所以在使用过程中可能会被误判，但是请放心，绝对正常，请将`Dearun.exe`添加为信任文件**  
 
 - **注**  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：([license下载](http://1.116.143.157/license.lic))，会提示是否覆盖原文件，点击确认即可。
 
@@ -89,7 +94,7 @@
 
 ### Dearun功能介绍
 <i class="fa-solid fa-compass"></i> 恭喜您已经成功打开了Dearun，接下来将向您介绍这个软件的功能：
-- 计算传统Radial模型（CCR、BCC）、SBM模型、DDF模型、EBM模型、Directional SBM模型、Non-radial DDF模型的效率值
+- 计算传统Radial模型（CCR、BCC）、SBM模型、DDF模型、EBM模型、MinDS（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型的效率值
 - 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型的超效率值
 - 可以处理包含非期望产出的情况（除EBM模型外）
 - 可以计算四种主流的CCR模型交叉效率值  
@@ -99,7 +104,7 @@
 - 针对SBM模型/SBM超效率模型、EBM模型/EBM超效率模型可以输出相应指标的改进量
 - 计算基于**相邻参比**与**全局参比**的SBM、SBM超效率、DDF、EBM的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值  
 - 计算ML指数模型与GML指数模型
-- 计算基础的两阶段网络DEA模型（包含投入、中间产品、产出)
+- 计算多种基础的两阶段网络DEA模型（包含投入、中间产品、产出)
 - 无需额外安装低版本的Excel，兼容性好
 
 ### Dearun使用流程
@@ -361,6 +366,7 @@ $$
 {{< /admonition  >}}
 
 #### 网络DEA模型介绍
+##### 基础两阶段模型
 - 目前软件加入两种经典的两阶段网络DEA模型，生产过程为：
 <img src="\images\两阶段生产过程.png" width = "500" height = "180" alt="图片无法加载" align=center /></img>
 > 这两种模型，第一阶段的产出需全部作为第二阶段的投入  
@@ -372,7 +378,27 @@ $$
 {{< /admonition >}}
 - 两个模型的区别主要是：整体效率和两个子阶段效率之间的关系分别是multiplicative和additive的，且Kao and Hwang(2008)的模型只支持CRS约束下的计算，而Yao et al.(2009)在CRS和VRS假设下均可以计算，具体模型形式请大家参考原文（如下给出了Yao et al., 2009的模型形式）。  
 <img src="\images\网络DEA模型形式.png" width = "300" height = "550" alt="图片无法加载" align=center /></img>
-- 前文在网络DEA操作介绍中给的实例数据为两篇论文中原文所采用的数据，由于原文中数据的数量级过大，防止计算中出现数值问题，所以对所有指标下的数据同除以了10000，结果仍然与原文是相同的。
+- 前文在网络DEA操作介绍中给的实例数据为两篇论文中原文所采用的数据，由于原文中数据的数量级过大，防止计算中出现数值问题，所以对所有指标下的数据同除以了10000，结果仍然与原文是相同的。   
+<i class="fa-brands fa-bilibili"></i>  **[第一弹]网络DEA模型发展及经典模型的解读与计算（共享投入、两阶段网络DEA）**
+{{< bilibili BV1k34y1n7pu >}}  
+##### 进阶两阶段模型
+- 共享投入两阶段模型  
+<img src="\images\共享投入两阶段生产过程.png" width = "500" height = "180" alt="图片无法加载" align=center /></img>  
+- Centralized两阶段模型  
+<img src="\images\Centralized两阶段生产过程.png" width = "500" height = "180" alt="图片无法加载" align=center /></img>  
+{{< admonition type=quote title="参考文献" open=True >}}
+- 两个模型参考的文献分别为：  
+1. Yao C, Du J, Sherman H D, et al. DEA model with shared resources and efficiency decomposition[J]. European Journal of Operational Research, 2010, 207(1): 339-349.  
+**文章数据：**[链接](/共享测试数据.xlsx)
+2. Li Y, Chen Y, Liang L, et al. DEA models for extended two-stage network structures[J]. Omega, 2012, 40( 5):611-618.  
+**文章数据：**[链接](/CentralizedmodelData.xlsx)
+{{< /admonition >}}  
+<i class="fa-brands fa-bilibili"></i>  **[第二弹]网络DEA模型发展及经典模型的解读与计算（共享投入、两阶段网络DEA）**
+{{< bilibili BV1zT411J7R3 >}}
+- 共享投入两阶段模型需要设置每个共享投入在第一阶段的比例范围，详情请参照教程视频。
+
+
+
 - **后期将支持更多的网络DEA模型，尽请期待**。 
 
 
