@@ -19,6 +19,9 @@
 > - 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
 **用户小福利：网络DEA模块目前处于开发初期，所以基础的两阶段网络DEA模型无需license即可使用哦~**  
+<i class="fa-solid fa-champagne-glasses"></i> **1.1.3 版本更新时间：2022年7月14日**   
+<i class="fa-solid fa-check"></i> 优化页面  
+<i class="fa-solid fa-check"></i> 为了更直观展示结果，`结果输出表格展示`一栏的数据小数点默认保留5位（而保存在excel内的结果数据仍不受影响，为原始输出结果数据）    
 <i class="fa-solid fa-champagne-glasses"></i> **1.1.2 版本更新时间：2022年7月13日**   
 <i class="fa-solid fa-check"></i> 新增共享投入两阶段DEA模型及Centralized网络模型    
 <i class="fa-solid fa-champagne-glasses"></i> **1.1.1 版本更新时间：2022年6月27日**   
@@ -90,7 +93,7 @@
 - **注**  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：([license下载](http://1.116.143.157/license.lic))，会提示是否覆盖原文件，点击确认即可。
 
 - 顺利的话将会出现如下Dearun图形交互界面：
-<img src="\images\展示1.png" width = "500" height = "300" alt="图片无法加载" align=center /></img>
+<img src="\images\展示_1.png" width = "600" height = "400" alt="图片无法加载" align=center /></img>
 
 ### Dearun功能介绍
 <i class="fa-solid fa-compass"></i> 恭喜您已经成功打开了Dearun，接下来将向您介绍这个软件的功能：
