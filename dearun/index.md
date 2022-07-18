@@ -12,6 +12,10 @@
 为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请，Dearun目前为科研工作提供3天的体验期，**请点击此处填写表单申请：**[申请链接](https://www.dearun.top/application)
 {{< /admonition >}}
 
+
+**注：**  
+**1.本页面的模型介绍与软件操作方法将不再更新！将全部内置在软件界面里，在软件中点击不同模型的`帮助`按钮即可获取更多支持，软件内的帮助会更加详细！！**  
+**2.如果软件下载提示报错，请更换浏览器进行下载；如果安装后提示有风险，请点击`信任本软件`，由于软件没有数字签名，所以会被误杀，软件绝对绿色无毒，请放心使用！**  
 ### 版本信息
 #### 版本更新信息
 > - 每次使用前，请点击`检查更新`按钮来进行版本更新并安装，如有新版本会提示您，新版本会修正旧版本的部分BUG，请**务必进行更新**
@@ -19,6 +23,11 @@
 > - 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
 **用户小福利：网络DEA模块目前处于开发初期，所以基础的两阶段网络DEA模型无需license即可使用哦~**  
+<i class="fa-solid fa-champagne-glasses"></i> **2.0.0 版本更新时间：2022年7月18日**   
+<i class="fa-solid fa-check"></i> 新增`Non-radial DDF Luenberger指数 -全局参比`与`Directional SBM Luenberger指数 -全局参比`	  
+<i class="fa-solid fa-check"></i> 新增`窗口DEA(Windows DEA)`模型，可以自行设定窗口期  
+<i class="fa-solid fa-check"></i> 新增`Meta-Frontier`与`Meta-Frontier Malmquist指数`计算方法  
+ <i class="fa-solid fa-check"></i> 软件内新增`帮助`按钮，详细介绍了模型选取与数据导入的格式  
 <i class="fa-solid fa-champagne-glasses"></i> **1.1.3 版本更新时间：2022年7月14日**   
 <i class="fa-solid fa-check"></i> 优化页面  
 <i class="fa-solid fa-check"></i> 为了更直观展示结果，`结果输出表格展示`一栏的数据小数点默认保留5位（而保存在excel内的结果数据仍不受影响，为原始输出结果数据）    
