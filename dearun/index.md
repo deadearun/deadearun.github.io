@@ -23,7 +23,10 @@
 > - 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
 **用户小福利：网络DEA模块目前处于开发初期，所以基础的两阶段网络DEA模型无需license即可使用哦~**  
-<i class="fa-solid fa-champagne-glasses"></i> **2.0.0 版本更新时间：2022年7月20日**   
+<i class="fa-solid fa-champagne-glasses"></i> **2.0.2 版本更新时间：2022年7月20日**   
+<i class="fa-solid fa-check"></i>  优化`帮助`文件打开速度及`检查更新`速度  
+<i class="fa-solid fa-check"></i>  修复一些bug    
+<i class="fa-solid fa-champagne-glasses"></i> **2.0.1 版本更新时间：2022年7月20日**   
 <i class="fa-solid fa-check"></i> ML与GML指数中新增`0，y0，-b0弱可处置性`方向  
 <i class="fa-solid fa-champagne-glasses"></i> **2.0.0 版本更新时间：2022年7月18日**   
 <i class="fa-solid fa-check"></i> 新增`Non-radial DDF Luenberger指数 -全局参比`与`Directional SBM Luenberger指数 -全局参比`	  
