@@ -23,6 +23,9 @@
 > - 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
 **用户小福利：网络DEA模块目前处于开发初期，所以基础的两阶段网络DEA模型无需license即可使用哦~**  
+<i class="fa-solid fa-champagne-glasses"></i> **2.0.3-2.0.4 版本更新时间：2022年7月30日**   
+<i class="fa-solid fa-check"></i>  优化界面UI 
+<i class="fa-solid fa-check"></i>  修复部分bug   
 <i class="fa-solid fa-champagne-glasses"></i> **2.0.2 版本更新时间：2022年7月20日**   
 <i class="fa-solid fa-check"></i>  优化`帮助`文件打开速度及`检查更新`速度  
 <i class="fa-solid fa-check"></i>  修复一些bug    
