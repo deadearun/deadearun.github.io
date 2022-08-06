@@ -23,10 +23,15 @@
 > - 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
 **用户小福利：网络DEA模块目前处于开发初期，所以基础的两阶段网络DEA模型无需license即可使用哦~**  
+<i class="fa-solid fa-champagne-glasses"></i> **2.0.6 版本更新时间：2022年8月7日**    
+<i class="fa-solid fa-check"></i>  提升用户体验，完善了不同模型的提示与注意事项   
+<i class="fa-solid fa-check"></i>  修复部分bug  
+<i class="fa-solid fa-check"></i>  新增了“Min-max标准化”选项，如果数据内有负数、0或量纲差距过大的情况，可以点击该选项进行数据标准化     
+<i class="fa-solid fa-check"></i> 新增了Weighted SBM模型、ZSG-DEA模型、两阶段网络SBM模型、两阶段网络SBM超效率模型  
+<i class="fa-solid fa-check"></i> 修复之前版本所反馈的BUG  
 <i class="fa-solid fa-champagne-glasses"></i> **2.0.3-2.0.4 版本更新时间：2022年7月30日**   
-<i class="fa-solid fa-check"></i>  优化界面UI 
-<i class="fa-solid fa-check"></i>  修复部分bug   
-<i class="fa-solid fa-champagne-glasses"></i> **2.0.2 版本更新时间：2022年7月20日**   
+<i class="fa-solid fa-check"></i>  优化界面UI   
+**2.0.2 版本更新时间：2022年7月20日**   
 <i class="fa-solid fa-check"></i>  优化`帮助`文件打开速度及`检查更新`速度  
 <i class="fa-solid fa-check"></i>  修复一些bug    
 <i class="fa-solid fa-champagne-glasses"></i> **2.0.1 版本更新时间：2022年7月20日**   
