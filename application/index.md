@@ -14,7 +14,7 @@
 > 更多模型正在不断开发中...尽请期待
 
 ### 获取Dearun许可
-为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您填写了学术邮箱，我们将为您提供3天的Dearun全功能license，许可期内求解次数不限。  
+为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，我们将为您提供1天的Dearun全功能license，许可期内求解次数不限。  
 **如果长时间未发送许可，请添加QQ：2229263318**  
 **如果您有软件使用需求，请您填写如下表单，并确认信息填写无误：**
 <script type='text/javascript' src='https://www.wjx.top/handler/jqemed.ashx?activity=YLFgrDm&width=760&source=iframe'></script>  
