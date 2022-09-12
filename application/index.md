@@ -38,7 +38,7 @@ echo %USERNAME%
 - 您提交表单后，我们将于2个工作日内将许可文件与激活方式发送到您填写的邮箱内，请务必保证您填写的邮箱正确。
 - **如果长时间未发送邮件，请添加QQ：2229263318**  
 ### 结语
-<i class="fa-solid fa-award"></i>  大家有什么想法的话，欢迎联系我！如果您有一定的开发经验，也可以联系我，谢谢大家~
+<i class="fa-solid fa-award"></i>  大家有什么想法的话，欢迎联系我！谢谢大家的支持~
 
 ### Support or Contact
 <i class="fa-brands fa-qq"></i> QQ：:(fas fa-address-card): 2229263318
