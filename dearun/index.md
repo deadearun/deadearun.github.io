@@ -141,7 +141,7 @@
 
 ### 软件使用说明
 {{< admonition type=tip title="提示" open=True >}}
-软件操作指南请点击：[Dearun软件操作指南](https://dearun.club/method/)  
+软件操作指南请点击：[Dearun软件操作指南](https://dearun.top/method/)，[备用链接](https://dearun.club/method/)  
 **注：此链接的模型介绍与软件操作方法将不再更新！将全部内置在软件界面里，请在软件中点击不同模型的`帮助`按钮即可获取更多支持，软件内的帮助会更加详细**
 {{< /admonition >}}
 
