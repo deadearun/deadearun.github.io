@@ -22,7 +22,7 @@
 <i class="fa-solid fa-check"></i>  修正了部分电脑由于分辨率而导致软件界面显示不全的问题  
 <i class="fa-solid fa-check"></i>  优化了Malmquist指数的计算速度         
 <i class="fa-solid fa-check"></i>  在Luenberger指数的基础上，新增了Non-radial DDF(NDDF)模型和Directional SBM(SBM-DDF)模型的全局Malmquist-Luenberger指数  
-<i class="fa-solid fa-check"></i> 在输入权重或节点类型时不再要求输入英文逗号（如WSBM、NDDF、Network SBM模型）
+<i class="fa-solid fa-check"></i> 在输入权重或节点类型时不再要求输入英文逗号（如WSBM、NDDF、Network SBM模型）  
 <i class="fa-solid fa-check"></i> 新增Dearun Trial，提供软件试用，可计算部分基础模型    
 <i class="fa-solid fa-champagne-glasses"></i> **2.0.6 版本更新时间：2022年8月7日**    
 <i class="fa-solid fa-check"></i>  提升用户体验，完善了不同模型的提示与注意事项   
@@ -102,6 +102,9 @@
 
 - 点击这里获取Dearun安装文件：<i class="fa-solid fa-file-zipper"></i> [下载链接](http://1.116.143.157/Dearun_Setup.exe)
 
+**提示：**
+1. 如果点击下载链接没反应，请更换浏览器重试；
+2. 如果提示`无法安全下载Dearun_Setup.exe`，请右键点击该提示，在弹出的对话框里选择`仍然保留`，即可开始下载。
 #### 安装
 - 请按照以下步骤运行Dearun
 1. 点击`Dearun_Setup.exe`文件  
@@ -114,9 +117,14 @@
 > **如果您的电脑安装了360软件，由于软件没有数字签名，所以在使用过程中可能会被误判，但是请放心，绝对正常，请将`Dearun.exe`添加为信任文件**  
 
 - **注**  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：([license下载](http://1.116.143.157/license.lic))，会提示是否覆盖原文件，点击确认即可。
-
+<img src="\images\许可安装.png" width = "500" height = "300" alt="图片无法加载" align=center /></img>  
 - 顺利的话将会出现如下Dearun图形交互界面：
-<img src="\images\展示_1.png" width = "600" height = "400" alt="图片无法加载" align=center /></img>
+<img src="\images\展示_1.png" width = "600" height = "400" alt="图片无法加载" align=center /></img>  
+
+<br/>  
+
+
+**如果软件界面显示不正常，请参照网站下方的软件兼容性问题解决方案**
 
 ### Dearun功能介绍
 
@@ -159,7 +167,7 @@
 <i class="fa-solid fa-circle-right"></i>  如果您已经获取了`License`，在版本更新时，请备份好`License`，即把license先移到别的文件夹，安装好新版本后再移回    
 
 ### 软件兼容性问题
-<img src="\images\兼容性问题1.png" width = "600" height = "800" alt="图片无法加载" align=center /></img>   
+<img src="\images\兼容性问题1.png" width = "550" height = "700" alt="图片无法加载" align=center /></img>   
 **Note**：软件内置的求解器采用的是当今学业与业界评价十分高的开源求解器，本软件基于此求解器进行算法代码的书写，足以解决中小规模的`DEA问题`，且求解速度十分快。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug <i class="fa-regular fa-face-sad-tear"></i> ，如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
 
 ### 结语
