@@ -17,6 +17,9 @@
 > - 1.1.0版本之前，更新需要前往官网下载安装包，并提前备份好获取的`license`文件，安装完毕后，将备份好的`license`文件重新放入安装目录中
 > - 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
+
+<i class="fa-solid fa-champagne-glasses"></i> **2.1.9 版本更新时间：2022年9月21日**    
+<i class="fa-solid fa-check"></i>  进一步提升用户体验，修复已知bug  
 <i class="fa-solid fa-champagne-glasses"></i> **2.0.7-2.1.7 版本更新时间：2022年9月12日**    
 <i class="fa-solid fa-check"></i>  提升用户体验，完善了不同模型的提示与注意事项   
 <i class="fa-solid fa-check"></i>  修正了部分电脑由于分辨率而导致软件界面显示不全的问题  
@@ -42,6 +45,10 @@
 <i class="fa-solid fa-check"></i> 新增`窗口DEA(Windows DEA)`模型，可以自行设定窗口期  
 <i class="fa-solid fa-check"></i> 新增`Meta-Frontier`与`Meta-Frontier Malmquist指数`计算方法  
  <i class="fa-solid fa-check"></i> 软件内新增`帮助`按钮，详细介绍了模型选取与数据导入的格式  
+
+> 如果您想查看以往版本更新信息，请点击下方`以往版本更新内容`。
+
+{{< admonition type=example title="以往版本更新内容" open=false >}}
 <i class="fa-solid fa-champagne-glasses"></i> **1.1.3 版本更新时间：2022年7月14日**   
 <i class="fa-solid fa-check"></i> 优化页面  
 <i class="fa-solid fa-check"></i> 为了更直观展示结果，`结果输出表格展示`一栏的数据小数点默认保留5位（而保存在excel内的结果数据仍不受影响，为原始输出结果数据）    
@@ -49,9 +56,6 @@
 <i class="fa-solid fa-check"></i> 新增共享投入两阶段DEA模型及Centralized网络模型    
 <i class="fa-solid fa-champagne-glasses"></i> **1.1.1 版本更新时间：2022年6月27日**   
 <i class="fa-solid fa-check"></i> 修正当数据量较大时，在模型计算过程中主页面卡顿的问题  
-> 如果您想查看以往版本更新信息，请点击下方`以往版本更新内容`。
-
-{{< admonition type=example title="以往版本更新内容" open=false >}}
 <i class="fa-solid fa-champagne-glasses"></i> **1.1.0 版本更新时间：2022年6月26日**   
 <i class="fa-solid fa-check"></i> 优化更新功能，若有新版本，点击检查更新选项，将自动下载更新并安装，无需跳转到官网进行自行更新            
 <i class="fa-solid fa-check"></i> 新增Directional SBM模型、Non-radial DDF模型  
@@ -102,9 +106,11 @@
 
 - 点击这里获取Dearun安装文件：<i class="fa-solid fa-file-zipper"></i> [下载链接](http://1.116.143.157/Dearun_Setup.exe)
 
-**提示：**
+{{< admonition type=failure title="下载失败解决方案" open=true >}}
 1. 如果点击下载链接没反应，请更换浏览器重试；
 2. 如果提示`无法安全下载Dearun_Setup.exe`，请右键点击该提示，在弹出的对话框里选择`仍然保留`，即可开始下载。
+{{< /admonition >}}
+
 #### 安装
 - 请按照以下步骤运行Dearun
 1. 点击`Dearun_Setup.exe`文件  
@@ -123,8 +129,10 @@
 
 <br/>  
 
+{{< admonition type=failure title="软件兼容性问题" open=true >}}
+**如果软件界面显示不正常，请参照网站下方的软件兼容性问题解决方案。**
+{{< /admonition >}}
 
-**如果软件界面显示不正常，请参照网站下方的软件兼容性问题解决方案**
 
 ### Dearun功能介绍
 
@@ -149,7 +157,7 @@
 
 ### 软件使用说明
 {{< admonition type=tip title="提示" open=True >}}
-软件操作指南请点击：[Dearun软件操作指南](https://dearun.top/method/)，[备用链接](https://dearun.club/method/)  
+软件操作指南请点击：[Dearun软件操作指南](https://dearun.top/method/)（[备用链接](https://dearun.club/method/)）  
 **注：此链接的模型介绍与软件操作方法将不再更新！将全部内置在软件界面里，请在软件中点击不同模型的`帮助`按钮即可获取更多支持，软件内的帮助会更加详细**
 {{< /admonition >}}
 
