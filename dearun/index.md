@@ -18,8 +18,10 @@
 > - 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
 
-<i class="fa-solid fa-champagne-glasses"></i> **2.1.9 版本更新时间：2022年9月21日**    
+<i class="fa-solid fa-champagne-glasses"></i> **2.1.8-2.1.9 版本更新时间：2022年9月27日**    
 <i class="fa-solid fa-check"></i>  进一步提升用户体验，修复已知bug  
+<i class="fa-solid fa-check"></i>  在无导向SBM模型的基础上新增了投入导向与产出导向的SBM模型  
+<i class="fa-solid fa-check"></i>  在无导向SBM超效率模型的基础上新增了投入导向与产出导向的SBM超效率模型    
 <i class="fa-solid fa-champagne-glasses"></i> **2.0.7-2.1.7 版本更新时间：2022年9月12日**    
 <i class="fa-solid fa-check"></i>  提升用户体验，完善了不同模型的提示与注意事项   
 <i class="fa-solid fa-check"></i>  修正了部分电脑由于分辨率而导致软件界面显示不全的问题  
@@ -123,7 +125,7 @@
 > **如果您的电脑安装了360软件，由于软件没有数字签名，所以在使用过程中可能会被误判，但是请放心，绝对正常，请将`Dearun.exe`添加为信任文件**  
 
 - **注**  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：([license下载](http://1.116.143.157/license.lic))，会提示是否覆盖原文件，点击确认即可。
-<img src="\images\许可安装.png" width = "500" height = "300" alt="图片无法加载" align=center /></img>  
+<img src="\images\许可安装.png" width = "500" height = "310" alt="图片无法加载" align=center /></img>  
 - 顺利的话将会出现如下Dearun图形交互界面：
 <img src="\images\展示_1.png" width = "600" height = "400" alt="图片无法加载" align=center /></img>  
 
@@ -169,7 +171,7 @@
 4. Meta-frontier CCR、BCC、SBM模型
 5. 投入与产出导向的CCR、BCC模型的Malmquist指数（全局参比、相邻参比）
 6. Meta-frontier CCR、BCC Malmuqist指数（全局参比）
-7. 两阶段网络DEA模型      
+7. 两阶段乘性网络DEA模型      
 
 <i class="fa-solid fa-compass"></i>   如果您需要使用全部功能解锁的软件，请及时联系我，我将为您提供`License`以及激活方法，并享受后续所有版本更新的服务   
 <i class="fa-solid fa-circle-right"></i>  如果您已经获取了`License`，在版本更新时，请备份好`License`，即把license先移到别的文件夹，安装好新版本后再移回    
