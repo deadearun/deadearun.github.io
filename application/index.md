@@ -20,7 +20,10 @@
 
 
 <script type='text/javascript' src='https://www.wjx.top/handler/jqemed.ashx?activity=YLFgrDm&width=760&source=iframe'></script>  
-<script type="text/javascript" src="http://www.wenjuan.com/iframe/634aa38a5d2f82e68ccd3350/?params=hide_mobile_icon=true" width = "400" height = "500" ></script>
+
+<i class="fa-solid fa-circle-right"></i>  **如果上述表单无法访问，请点击此链接进行申请：**[Dearun许可申请](https://www.wenjuan.com/s/UZBZJvFPaw/)  
+
+
 **Note**：请不要轻信填完此表单后的广告链接！
 {{< admonition >}}
 <i class="fa-solid fa-circle-right"></i>  **计算机用户名获取方式**：
