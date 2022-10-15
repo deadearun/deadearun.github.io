@@ -1,0 +1,42 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Dearun - 标签 - DEARUN</title>
+        <link>https://deadearun.github.io/tags/dearun/</link>
+        <description>Dearun - 标签 - DEARUN</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>dearun2022@163.com (dearun)</managingEditor>
+            <webMaster>dearun2022@163.com (dearun)</webMaster><lastBuildDate>Wed, 21 Sep 2022 12:13:24 &#43;0800</lastBuildDate><atom:link href="https://deadearun.github.io/tags/dearun/" rel="self" type="application/rss+xml" /><item>
+    <title>Dearun使用指南</title>
+    <link>https://deadearun.github.io/dearun/</link>
+    <pubDate>Sun, 01 May 2022 12:13:24 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://deadearun.github.io/dearun/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/%e5%b0%81%e9%9d%a2.png" referrerpolicy="no-referrer">
+            </div>Dearun说明文档，包含：安装Dearun；Dearun功能介绍]]></description>
+</item><item>
+    <title>Dearun软件操作</title>
+    <link>https://deadearun.github.io/method/</link>
+    <pubDate>Sun, 01 May 2022 12:13:24 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://deadearun.github.io/method/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/%e4%bd%bf%e7%94%a8%e5%b0%81%e9%9d%a2.png" referrerpolicy="no-referrer">
+            </div>Dearun使用文档（不再更新），包含：Dearun使用流程；Dearun注意事项。]]></description>
+</item><item>
+    <title>Dearun许可申请</title>
+    <link>https://deadearun.github.io/application/</link>
+    <pubDate>Tue, 12 Jul 2022 12:13:24 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://deadearun.github.io/application/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/images/license%e5%b0%81%e9%9d%a2.png" referrerpolicy="no-referrer">
+            </div>Dearun许可获取指南。]]></description>
+</item><item>
+    <title>示例数据下载</title>
+    <link>https://deadearun.github.io/data/</link>
+    <pubDate>Wed, 21 Sep 2022 12:13:24 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://deadearun.github.io/data/</guid>
+    <description><![CDATA[Dearun软件参考数据]]></description>
+</item></channel>
+</rss>
