@@ -17,7 +17,6 @@
 为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，我们将为您提供1天的Dearun全功能license，许可期内求解次数不限。  
 **如果长时间未发送许可，请添加QQ：2229263318**  
 **如果您有软件使用需求，请您填写如下表单，并确认信息填写无误：**
-
 <script type="text/javascript" src="http://www.wenjuan.com/iframe/634aa38a5d2f82e68ccd3350/?params=hide_mobile_icon=true"></script>
 **Note**：请不要轻信填完此表单后的广告链接！
 {{< admonition >}}
