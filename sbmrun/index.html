@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>SBMrun使用指南 - DEARUN</title><meta name="Description" content="Data envelopment analysis学习小站"><meta property="og:title" content="SBMrun使用指南" />
+        <title>SBMrun使用指南 - DEARUN</title><meta name="Description" content="Dearun: 数据包络分析效率计算软件"><meta property="og:title" content="SBMrun使用指南" />
 <meta property="og:description" content="SBMrun说明文档，包含：安装SBMrun；SBMrun功能介绍；SBMrun帮助文件" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://deadearun.github.io/sbmrun/" /><meta property="og:image" content="https://deadearun.github.io/images/logo.png"/><meta property="article:section" content="posts" />
@@ -17,10 +17,10 @@
 
 <meta name="twitter:title" content="SBMrun使用指南"/>
 <meta name="twitter:description" content="SBMrun说明文档，包含：安装SBMrun；SBMrun功能介绍；SBMrun帮助文件"/>
-<meta name="application-name" content="LoveIt">
-<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="application-name" content="Dearun">
+<meta name="apple-mobile-web-app-title" content="Dearun"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://deadearun.github.io/sbmrun/" /><link rel="prev" href="https://deadearun.github.io/data/" /><link rel="next" href="https://deadearun.github.io/method/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://deadearun.github.io/sbmrun/" /><link rel="prev" href="https://deadearun.github.io/data/" /><link rel="next" href="https://deadearun.github.io/method/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><meta name="baidu-site-verification" content="wzz26bMPqOvt99aO" /><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -53,7 +53,7 @@
         title="/images/logo.png" />DEARUN官方网站</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+            <div class="menu-inner"><a class="menu-item" href="/posts/" title="文章列表"> 文章 </a><a class="menu-item" href="/tags/" title="文章标签"> 标签 </a><a class="menu-item" href="/categories/" title="文章分类"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
                             <i class="fas fa-search fa-fw"></i>
@@ -103,7 +103,7 @@
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         取消
                     </a>
-                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                </div><a class="menu-item" href="/posts/" title="文章列表">文章</a><a class="menu-item" href="/tags/" title="文章标签">标签</a><a class="menu-item" href="/categories/" title="文章分类">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -182,7 +182,7 @@
         </div>
     </div>
 <ul>
-<li><strong>注</strong>  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：(<a href="http://1.116.143.157/license.lic" target="_blank" rel="noopener noreffer">license下载</a>)，会提示是否覆盖原文件，点击确认即可。<strong>许可的名字不可改变，如果您下载了多个许可文件，导致许可文件后多了数字，如<code>license(1).lic</code>，请删除多余的数字，保持<code>license.lic</code>的格式。</strong>
+<li><strong>注</strong>  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：(<a href="http://1.116.143.157/license.lic" target="_blank" rel="noopener noreffer">license下载 <i class="fa-solid fa-up-right-from-square"></i></a>)，会提示是否覆盖原文件，点击确认即可。<strong>许可的名字不可改变，如果您下载了多个许可文件，导致许可文件后多了数字，如<code>license(1).lic</code>，请删除多余的数字，保持<code>license.lic</code>的格式。</strong>
 <img src="\images\SBMrun许可安装.png" width = "500" height = "310" alt="图片无法加载" align=center /></img></li>
 <li>顺利的话将会出现如下SBMrun命令行交互界面：
 <img src="\images\展示_2.png" width = "600" height = "300" alt="图片无法加载" align=center /></img></li>
@@ -205,7 +205,7 @@
             <i class="icon fas fa-lightbulb fa-fw"></i>提示<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
-            <div class="admonition-content">软件操作指南请点击：<a href="https://docs.qq.com/doc/DS2Z3VkhKV2hySGhH" target="_blank" rel="noopener noreffer">SBMrun软件操作指南</a></div>
+            <div class="admonition-content">软件操作指南请点击：<a href="https://docs.qq.com/doc/DS2Z3VkhKV2hySGhH" target="_blank" rel="noopener noreffer">SBMrun软件操作指南 <i class="fa-solid fa-up-right-from-square"></i></a></div>
         </div>
     </div>
 <h3 id="软件许可使用">软件许可使用</h3>
@@ -226,7 +226,7 @@
         <div class="post-info-line">
             <div class="post-info-md"></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://deadearun.github.io/sbmrun/" data-title="SBMrun使用指南" data-hashtags="SBMrun"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://deadearun.github.io/sbmrun/" data-hashtag="SBMrun"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://deadearun.github.io/sbmrun/" data-title="SBMrun使用指南" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://deadearun.github.io/sbmrun/" data-title="SBMrun使用指南"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://deadearun.github.io/sbmrun/" data-title="SBMrun使用指南"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Myspace" data-sharer="myspace" data-url="https://deadearun.github.io/sbmrun/" data-title="SBMrun使用指南" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="分享到 Blogger" data-sharer="blogger" data-url="https://deadearun.github.io/sbmrun/" data-title="SBMrun使用指南" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://deadearun.github.io/sbmrun/" data-title="SBMrun使用指南"><i class="fab fa-evernote fa-fw"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Linkedin" data-sharer="linkedin" data-url="https://deadearun.github.io/sbmrun/"><i class="fab fa-linkedin fa-fw"></i></a><a href="javascript:void(0);" title="分享到 WhatsApp" data-sharer="whatsapp" data-url="https://deadearun.github.io/sbmrun/" data-title="SBMrun使用指南" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://deadearun.github.io/sbmrun/" data-title="SBMrun使用指南"><i data-svg-src="/lib/simple-icons/icons/line.min.svg"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://deadearun.github.io/sbmrun/" data-title="SBMrun使用指南"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="分享到 百度" data-sharer="baidu" data-url="https://deadearun.github.io/sbmrun/" data-title="SBMrun使用指南"><i data-svg-src="/lib/simple-icons/icons/baidu.min.svg"></i></a><a href="javascript:void(0);" title="分享到 Evernote" data-sharer="evernote" data-url="https://deadearun.github.io/sbmrun/" data-title="SBMrun使用指南"><i class="fab fa-evernote fa-fw"></i></a></span>
             </div>
         </div>
     </div>
@@ -248,7 +248,8 @@
         <div class="footer-container">
             <div class="footer-line">
                 <span id="run-time"></span>
-            </div><div class="footer-line"><未经许可，请勿搬运文章内容></div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="dearun" target="_blank">admin</a></span>&nbsp;|&nbsp;<span class="license">Data envelopment analysis</span></div>
+            </div><div class="footer-line">Dearun: 数据包络分析效率计算软件</div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="dearun" target="_blank">admin</a></span>&nbsp;|&nbsp;<span class="license">Data envelopment analysis</span><span class="icp-splitter">&nbsp;|&nbsp;</span><br class="icp-br"/>
+                    <span class="icp"><i class='fas fa-fw fa-fan fa-spin'></i></span></div>
         </div>
     </footer></div>
 

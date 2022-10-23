@@ -6,7 +6,7 @@
 ### 软件简介
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-fly"></i> 数据包络分析(Data envelopment analysis, DEA) 是一种评价具有多投入和多产出的决策单元(Decision-making unit, DMU)相对有效性的非参数方法，其无需预先给定权重和假设分布，可以直接通过投入与产出数据来确定生产前沿面的结构。作为数学、运筹学与计算机的交叉研究领域，DEA方法在多个领域有着广泛的应用。  
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-book-bookmark"></i>  大部分刚接触DEA的研究人员，可能都会对这类优化模型有着很深的疑惑，不知从何下手。如果想彻底明白DEA模型的机理，必须熟练掌握并运用运筹学的相关知识，包括如何建立、求解、分析优化模型，这意味着较高的学习成本。目前市面上也有一些软件来处理DEA模型，但是免费的软件只能求解简单的CCR/BCC模型，根本无法满足日常的研究需求。这也是开发本软件的初衷，其中包含了当前DEA研究领域的主流模型，包括基础效率模型、超效率模型、网络DEA模型以及动态Malmquist指数分析，并可以处理存在非期望产出的情形。本文将向您介绍**Dearun**软件的安装、运行流程，便于您更快的上手本软件。  
-&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-right"></i>  如果当前网站访问较慢，或者部分图片无法加载，请点击此网站：[备用链接1](https://dearun.top/dearun/)，[备用链接2](https://dearun.buzz/dearun/)，[备用链接3](https://dearun.club/dearun/)  
+&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-right"></i>  如果当前网站访问较慢，或者部分图片无法加载，请点击此网站：[备用链接1 <i class="fa-solid fa-up-right-from-square"></i>](https://dearun.top/dearun/)，[备用链接2 <i class="fa-solid fa-up-right-from-square"></i>](https://dearun.buzz/dearun/)，[备用链接3 <i class="fa-solid fa-up-right-from-square"></i>](https://dearun.club/dearun/)  
 
 
 **注：**  
@@ -106,7 +106,7 @@
 - 如上述链接无法加载，或者下载较慢，请点击此：[安装包下载](https://app.tmp.link/?tmpui_page=/file&ukey=62b76175bdce4)
 > 以上链接请用IE浏览器打开，用手机自带浏览器可能会报错</div>
 
-- 点击这里获取Dearun安装文件：<i class="fa-solid fa-file-zipper"></i> [下载链接](http://1.116.143.157/Dearun_Setup.exe)
+- 点击这里获取Dearun安装文件：<i class="fa-solid fa-file-zipper"></i> [下载链接 <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/Dearun_Setup.exe)
 
 {{< admonition type=failure title="下载失败解决方案" open=true >}}
 1. 如果点击下载链接没反应，请更换浏览器重试；
@@ -124,7 +124,7 @@
 <img src="\images\应用.png" width = "70" height = "70" alt="图片无法加载" align=center /></img>
 > **如果您的电脑安装了360软件，由于软件没有数字签名，所以在使用过程中可能会被误判，但是请放心，绝对正常，请将`Dearun.exe`添加为信任文件**  
 
-- **注**  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：([license下载](http://1.116.143.157/license.lic))，会提示是否覆盖原文件，点击确认即可。**许可的名字不可改变，如果您下载了多个许可文件，导致许可文件后多了数字，如`license(1).lic`，请删除多余的数字，保持`license.lic`的格式。**
+- **注**  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：([license下载 <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/license.lic))，会提示是否覆盖原文件，点击确认即可。**许可的名字不可改变，如果您下载了多个许可文件，导致许可文件后多了数字，如`license(1).lic`，请删除多余的数字，保持`license.lic`的格式。**
 <img src="\images\许可安装.png" width = "500" height = "310" alt="图片无法加载" align=center /></img>  
 - 顺利的话将会出现如下Dearun图形交互界面：
 <img src="\images\展示_1.png" width = "600" height = "400" alt="图片无法加载" align=center /></img>  
@@ -132,7 +132,8 @@
 <br/>  
 
 {{< admonition type=failure title="软件兼容性问题" open=true >}}
-**如果软件界面显示不正常，请参照网站下方的软件兼容性问题解决方案。**
+**如果软件界面显示不正常，请参照网站下方的软件兼容性问题解决方案。**  
+[软件兼容性问题解决方案 <i class="fa-solid fa-square-pen"></i>](../dearun/#软件兼容性问题)  
 {{< /admonition >}}
 
 
@@ -159,7 +160,8 @@
 
 ### 软件使用说明
 {{< admonition type=tip title="提示" open=True >}}
-软件操作指南请点击：[Dearun软件操作指南](https://dearun.top/method/)（[备用链接](https://dearun.club/method/)）  
+软件操作指南请点击：[Dearun软件操作指南 <i class="fa-solid fa-up-right-from-square"></i>](../method/)  
+
 **注：此链接的模型介绍与软件操作方法将不再更新！将全部内置在软件界面里，请在软件中点击不同模型的`帮助`按钮即可获取更多支持，软件内的帮助会更加详细**
 {{< /admonition >}}
 
@@ -173,9 +175,9 @@
 6. Meta-frontier CCR、BCC Malmuqist指数（全局参比）
 7. 两阶段乘性网络DEA模型      
 
-<i class="fa-solid fa-compass"></i>   如果您需要使用全部功能解锁的软件，请及时联系我，我将为您提供`License`以及激活方法，并享受后续所有版本更新的服务   
-<i class="fa-solid fa-circle-right"></i>  如果您已经获取了`License`，在版本更新时，请备份好`License`，即把license先移到别的文件夹，安装好新版本后再移回    
+<i class="fa-solid fa-compass"></i>   为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，将为您提供1天的Dearun Standard版许可，许可期内求解次数不限。具体申请方式请点击[Dearun许可申请 <i class="fa-solid fa-up-right-from-square"></i>](../application/)，填写表单进行提交申请，建议准备好数据并整理好格式后申请。审核通过后将发送到邮箱中，收到邮件后请及时激活。同时也提供长期的软件使用许可，详情请点击页面下方的联系方式进行咨询。
 
+<i class="fa-solid fa-circle-right"></i>  有关软件使用过程中的更多问题请点击 [软件使用须知 <i class="fa-solid fa-up-right-from-square"></i>](../query/)，操作演示数据请点击[示例数据下载 <i class="fa-solid fa-table"></i>](../data/) 获取。
 ### 软件兼容性问题
 <img src="\images\兼容性问题1.png" width = "550" height = "700" alt="图片无法加载" align=center /></img>   
 **Note**：软件内置的求解器采用的是当今学业与业界评价十分高的开源求解器，本软件基于此求解器进行算法代码的书写，足以解决中小规模的`DEA问题`，且求解速度十分快。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug <i class="fa-regular fa-face-sad-tear"></i> ，如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！

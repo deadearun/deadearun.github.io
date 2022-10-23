@@ -2,7 +2,7 @@
     <channel>
         <title>DEARUN</title>
         <link>https://deadearun.github.io/</link>
-        <description>Data envelopment analysis学习小站</description>
+        <description>Dearun: 数据包络分析效率计算软件</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>dearun2022@163.com (admin)</managingEditor>
             <webMaster>dearun2022@163.com (admin)</webMaster><lastBuildDate>Sun, 16 Oct 2022 12:13:24 &#43;0800</lastBuildDate>
             <atom:link href="https://deadearun.github.io/index.xml" rel="self" type="application/rss+xml" />
