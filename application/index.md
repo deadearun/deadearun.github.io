@@ -5,7 +5,8 @@
 <script src="https://assets.salesmartly.com/js/project_3040_3314_1657543658.js"></script>
 
 ### Dearun软件简介
-<i class="fa-brands fa-fly"></i>&nbsp;**软件介绍**：Dearun软件包含了当前 DEA 研究领域的主流模型，包括基础效率模型、超效率模型、网络 DEA 模型以及动态 Malmquist 指数分析，可以处理产出包含非期望产出的情形，同时涵盖了在评价时数据为截面类型与面板类型的情形。本软件操作简单，便于使用者快速上手。      
+<i class="fa-brands fa-fly"></i>&nbsp;**软件介绍**：Dearun软件包含了当前 DEA 研究领域的主流模型，包括基础效率模型、超效率模型、网络 DEA 模型以及动态 Malmquist 指数分析，可以处理产出包含非期望产出的情形，同时涵盖了在评价时数据为截面类型与面板类型的情形。本软件操作简单，便于使用者快速上手。 
+     
 :(fas fa-desktop): **运行系统**：Windows 10/ Windows11  
 > 注：暂不支持Mac系统  
 
@@ -48,3 +49,5 @@ echo %USERNAME%
 ### Support or Contact
 <i class="fa-brands fa-qq"></i> QQ：:(fas fa-address-card): 2229263318
 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2229263318&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2229263318:41" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+
+

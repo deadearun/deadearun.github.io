@@ -5,44 +5,45 @@
 <script src="https://assets.salesmartly.com/js/project_3040_3314_1657543658.js"></script>
 ### 软件简介
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-fly"></i> 数据包络分析(Data envelopment analysis, DEA) 是一种评价具有多投入和多产出的决策单元(Decision-making unit, DMU)相对有效性的非参数方法，其无需预先给定权重和假设分布，可以直接通过投入与产出数据来确定生产前沿面的结构。作为数学、运筹学与计算机的交叉研究领域，DEA方法在多个领域有着广泛的应用。  
+
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-book-bookmark"></i>  大部分刚接触DEA的研究人员，可能都会对这类优化模型有着很深的疑惑，不知从何下手。如果想彻底明白DEA模型的机理，必须熟练掌握并运用运筹学的相关知识，包括如何建立、求解、分析优化模型，这意味着较高的学习成本。目前市面上也有一些软件来处理DEA模型，但是免费的软件只能求解简单的CCR/BCC模型，根本无法满足日常的研究需求。这也是开发本软件的初衷，其中包含了当前DEA研究领域的主流模型，包括基础效率模型、超效率模型、网络DEA模型以及动态Malmquist指数分析，并可以处理存在非期望产出的情形。本文将向您介绍**Dearun**软件的安装、运行流程，便于您更快的上手本软件。  
-&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-right"></i>  如果当前网站访问较慢，或者部分图片无法加载，请点击此网站：[备用链接1 <i class="fa-solid fa-up-right-from-square"></i>](https://dearun.top/dearun/)，[备用链接2 <i class="fa-solid fa-up-right-from-square"></i>](https://dearun.buzz/dearun/)，[备用链接3 <i class="fa-solid fa-up-right-from-square"></i>](https://dearun.club/dearun/)  
+
+&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-right"></i>  如果当前网站访问较慢，或者部分图片无法加载，请点击此网站：  [备用链接1](https://dearun.top/dearun/) &nbsp;
+[备用链接2](https://dearun.buzz/dearun/)&nbsp;
+[备用链接3](https://dearun.club/dearun/)    
 
 
 **注：**  
+
 **如果软件下载提示报错，请更换浏览器进行下载；如果安装后提示有风险，请点击`信任本软件`，由于软件没有数字签名，所以会被误杀，软件绝对绿色无毒，请放心使用！**  
 ### 版本信息
 #### 版本更新信息
 > - 每次使用前，请点击`检查更新`按钮来进行版本更新并安装，如有新版本会提示您，新版本会修正旧版本的部分BUG，请**务必进行更新**
 > - 1.1.0版本之前，更新需要前往官网下载安装包，并提前备份好获取的`license`文件，安装完毕后，将备份好的`license`文件重新放入安装目录中
-> - 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
+> - {{< version 1.1.0 changed >}} 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
 
-<i class="fa-solid fa-champagne-glasses"></i> **2.1.8-2.1.9 版本更新时间：2022年9月27日**    
-<i class="fa-solid fa-check"></i>  进一步提升用户体验，修复已知bug  
+{{< version 2.1.8-2.1.9 >}} `更新时间：2022年9月27日`  
 <i class="fa-solid fa-check"></i>  在无导向SBM模型的基础上新增了投入导向与产出导向的SBM模型  
 <i class="fa-solid fa-check"></i>  在无导向SBM超效率模型的基础上新增了投入导向与产出导向的SBM超效率模型    
-<i class="fa-solid fa-champagne-glasses"></i> **2.0.7-2.1.7 版本更新时间：2022年9月12日**    
+{{< version 2.0.7-2.1.7 >}} `更新时间：2022年9月12日`  
 <i class="fa-solid fa-check"></i>  提升用户体验，完善了不同模型的提示与注意事项   
-<i class="fa-solid fa-check"></i>  修正了部分电脑由于分辨率而导致软件界面显示不全的问题  
+<i class="fa-solid fa-check"></i>  修复了部分电脑由于分辨率而导致软件界面显示不全的问题  
 <i class="fa-solid fa-check"></i>  优化了Malmquist指数的计算速度         
 <i class="fa-solid fa-check"></i>  在Luenberger指数的基础上，新增了Non-radial DDF(NDDF)模型和Directional SBM(SBM-DDF)模型的全局Malmquist-Luenberger指数  
 <i class="fa-solid fa-check"></i> 在输入权重或节点类型时不再要求输入英文逗号（如WSBM、NDDF、Network SBM模型）  
 <i class="fa-solid fa-check"></i> 新增Dearun Trial，提供软件试用，可计算部分基础模型    
-<i class="fa-solid fa-champagne-glasses"></i> **2.0.6 版本更新时间：2022年8月7日**    
+{{< version 2.0.6 >}} `更新时间：2022年8月7日`  
 <i class="fa-solid fa-check"></i>  提升用户体验，完善了不同模型的提示与注意事项   
-<i class="fa-solid fa-check"></i>  修复部分bug  
 <i class="fa-solid fa-check"></i>  新增了“Min-max标准化”选项，如果数据内有负数、0或量纲差距过大的情况，可以点击该选项进行数据标准化     
 <i class="fa-solid fa-check"></i> 新增了Weighted SBM模型、ZSG-DEA模型、两阶段网络SBM模型、两阶段网络SBM超效率模型  
 <i class="fa-solid fa-check"></i> 修复之前版本所反馈的BUG  
-<i class="fa-solid fa-champagne-glasses"></i> **2.0.3-2.0.4 版本更新时间：2022年7月30日**   
+{{< version 2.0.3-2.0.5 changed>}} `更新时间：2022年7月30日`  
 <i class="fa-solid fa-check"></i>  优化界面UI   
-**2.0.2 版本更新时间：2022年7月20日**   
+{{< version 2.0.1-2.0.2 >}} `更新时间：2022年7月20日`  
 <i class="fa-solid fa-check"></i>  优化`帮助`文件打开速度及`检查更新`速度  
-<i class="fa-solid fa-check"></i>  修复一些bug    
-<i class="fa-solid fa-champagne-glasses"></i> **2.0.1 版本更新时间：2022年7月20日**   
 <i class="fa-solid fa-check"></i> ML与GML指数中新增`0，y0，-b0弱可处置性`方向  
-<i class="fa-solid fa-champagne-glasses"></i> **2.0.0 版本更新时间：2022年7月18日**   
+{{< version 2.0.0 >}} `更新时间：2022年7月18日`  
 <i class="fa-solid fa-check"></i> 新增`Non-radial DDF Luenberger指数 -全局参比`与`Directional SBM Luenberger指数 -全局参比`	  
 <i class="fa-solid fa-check"></i> 新增`窗口DEA(Windows DEA)`模型，可以自行设定窗口期  
 <i class="fa-solid fa-check"></i> 新增`Meta-Frontier`与`Meta-Frontier Malmquist指数`计算方法  
@@ -99,7 +100,7 @@
 
 ### 下载与安装
 > 1. 本软件目前只支持64位Windows系统下载使用，暂不支持mac系统  
-> 2. 为方便版本管理，目前已经移除了原始的安装方式，如果您之前采用的是第二种安装方式，请删除原来的版本，并按照以下教程进行一键安装
+> 2. 为方便版本管理，目前已经移除了原始的安装方式 {{< version 1.0.1 changed>}}，如果您之前采用的是第二种安装方式，请删除原来的版本，并按照以下教程进行一键安装
 #### 下载
 
  <div style='display: none'>- 点击这里获取Dearun安装文件：<i class="fa-solid fa-file-zipper"></i> [云盘链接](https://share.weiyun.com/DmbYXpTv)，密码：`Dearun`
@@ -132,8 +133,8 @@
 <br/>  
 
 {{< admonition type=failure title="软件兼容性问题" open=true >}}
-**如果软件界面显示不正常，请参照网站下方的软件兼容性问题解决方案。**  
-[软件兼容性问题解决方案 <i class="fa-solid fa-square-pen"></i>](../dearun/#软件兼容性问题)  
+**如果软件界面显示不正常，请参照网站下方的软件兼容性问题解决方案。**    
+[软件兼容性问题解决方案 <i class="fa-solid fa-square-pen"></i>](../dearun/#软件兼容性问题)  {{< version 2.1.7>}}
 {{< /admonition >}}
 
 
@@ -162,11 +163,11 @@
 {{< admonition type=tip title="提示" open=True >}}
 软件操作指南请点击：[Dearun软件操作指南 <i class="fa-solid fa-up-right-from-square"></i>](../method/)  
 
-**注：此链接的模型介绍与软件操作方法将不再更新！将全部内置在软件界面里，请在软件中点击不同模型的`帮助`按钮即可获取更多支持，软件内的帮助会更加详细**
+**注：此链接的模型介绍与软件操作方法将不再更新！将全部内置在软件界面里 {{< version 2.0.0>}}，请在软件中点击不同模型的`帮助`按钮即可获取更多支持，软件内的帮助会更加详细**
 {{< /admonition >}}
 
 ### 软件许可使用
-<i class="fa-solid fa-battery-empty"></i>  直接下载的版本为Dearun Trial版，内置`License`，为功能限制的版本，提供了以下普通效率模型的测算:
+<i class="fa-solid fa-battery-empty"></i>  直接下载的版本为Dearun Trial版 {{< version 2.1.7>}}，内置`License`，为功能限制的版本，提供了以下普通效率模型的测算:
 1. 投入与产出导向的CCR、BCC模型
 2. 非径向的SBM模型（可包含非期望产出）
 3. 投入与产出导向的CCR、BCC超效率模型
