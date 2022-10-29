@@ -136,7 +136,7 @@ Dearun软件最新版本： **2.1.9.2**
 <br/> 
 {{< admonition type=failure title="软件兼容性问题" open=true >}}
 **如果软件界面显示不正常，请参照网站下方的软件兼容性问题解决方案。**    
-[软件兼容性问题解决方案 <i class="fa-solid fa-square-pen"></i>](../dearun/7-软件兼容性问题)  {{< version 2.1.7>}}
+[软件兼容性问题解决方案 <i class="fa-solid fa-square-pen"></i>](../dearun/#7-软件兼容性问题)  {{< version 2.1.7>}}
 {{< /admonition >}}
 
 

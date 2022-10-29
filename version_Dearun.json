@@ -1,11 +1,4 @@
 {
-	"version" : 2.992,
-	"url": "http://1.116.143.157/ndpack.pyd",
-	"help_1": "https://docs.qq.com/doc/DS3ZnYnpyeUFtVUVo",
-	"help_2": "https://docs.qq.com/doc/DS0J4QkdYRUxxeHV3",
-	"help_3": "https://docs.qq.com/doc/DS2ZMdm1HcHJyenpo",
-	"help_4": "https://docs.qq.com/doc/DS0RReWd2V0ZFa2JR",
-	"css_url": "http://1.116.143.157/config.qss",
-	"conn": "\nV2.1.9.2版本更新内容：\n1. 进一步提升用户体验，修复已知bug；\n2. 修复窗口DEA中DDF模型选择默认导向时的计算错误；\n3. 在无导向SBM模型的基础上新增了投入导向与产出导向的SBM模型。\n\n以及之前未更新版本的累积更新"
-
+	"version" : 1.1,
+	"url": "http://1.116.143.157/ndpack.pyd"
 }
