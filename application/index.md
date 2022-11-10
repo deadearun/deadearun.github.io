@@ -16,13 +16,12 @@
 
 ### 获取Dearun许可
 为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，我们将为您提供1天的Dearun全功能license，许可期内求解次数不限。  
-**如果长时间未发送许可，请添加QQ：2229263318**  
-**如果您有软件使用需求，请您填写如下表单，并确认信息填写无误：**
-
-
+注意：SBMrun软件也是由本链接进行申请。  
+<div style="display:none">
 <script type='text/javascript' src='https://www.wjx.top/handler/jqemed.ashx?activity=YLFgrDm&width=760&source=iframe'></script>  
+</div>
 
-<i class="fa-solid fa-circle-right"></i>  **如果上述表单无法访问，请点击此链接进行申请：**[Dearun许可申请](https://www.wenjuan.com/s/UZBZJvFPaw/)  
+<i class="fa-solid fa-circle-right"></i>  **请点击此链接进行申请：**[Dearun许可申请](https://www.wenjuan.com/s/UZBZJvFPaw/)  
 
 
 **Note**：请不要轻信填完此表单后的广告链接！

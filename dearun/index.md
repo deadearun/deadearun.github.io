@@ -13,7 +13,7 @@
 [备用链接3](https://dearun.club/dearun/)    
 
 {{< style "text-align:right; strong{color:#00b1ff;}" >}}
-Dearun软件最新版本： **2.1.9.2**
+Dearun软件最新版本： **3.0.1**
 {{< /style >}}
 
 
@@ -24,10 +24,24 @@ Dearun软件最新版本： **2.1.9.2**
 > - 1.1.0版本之前，更新需要前往官网下载安装包，并提前备份好获取的`license`文件，安装完毕后，将备份好的`license`文件重新放入安装目录中
 > - {{< version 1.1.0 changed >}} 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
-
+{{< version 2.1.8-2.1.9 >}} `更新时间：2022年11月10日` 
+**注：本次更新需要重新下载安装包，无法点击`检查更新`进行更新。**  
+<i class="fa-solid fa-check"></i>  “常规效率模型”、“超效率模型”、“网络DEA”选项卡增添了计算面板数据效率值的功能，只需要导入面板数据后，点击“包含时期列”，即可得到面板数据的全局效率值  
+<i class="fa-solid fa-check"></i>  加入Pessimistic CCR投入导向、CCR产出导向、SBM模型  
+<i class="fa-solid fa-check"></i>  优化了Malmquist指数值的结果显示，输出的格式为面板格式，便于进一步分析，更为直观  
+<i class="fa-solid fa-check"></i>  可以设置保存结果后，自动打开结果所在的文件夹，更为方便  
+<i class="fa-solid fa-check"></i>  如果在计算前对数据进行了标准化，保存的结果中增添了标准化后的数据表格  
+<i class="fa-solid fa-check"></i>  当计算结果出现无可行解时，可以选择是否用1或者0代替结果  
+<i class="fa-solid fa-check"></i>  新增了更新许可文件的选项，如果许可提示到期，点击更新即可自动下载最新Trial版许可  
+<i class="fa-solid fa-check"></i>  修正了在读取xls格式的文件时，提示导入数据格式错误的问题  
+<i class="fa-solid fa-check"></i>  在有网络的情况下，软件启动后会自动检查更新  
+<i class="fa-solid fa-check"></i>  Dearun trial版本新增了一个可以直接使用的模型：SBM模型的全局Malmquist指数  
+<i class="fa-solid fa-check"></i>  优化了界面UI，提示更为直观，同时修复其他错误  
 {{< version 2.1.8-2.1.9 >}} `更新时间：2022年9月27日`  
 <i class="fa-solid fa-check"></i>  在无导向SBM模型的基础上新增了投入导向与产出导向的SBM模型  
 <i class="fa-solid fa-check"></i>  在无导向SBM超效率模型的基础上新增了投入导向与产出导向的SBM超效率模型    
+
+{{< admonition type=example title="近期版本更新内容 v2.0.0-2.1.7" open=false >}}
 {{< version 2.0.7-2.1.7 >}} `更新时间：2022年9月12日`  
 <i class="fa-solid fa-check"></i>  提升用户体验，完善了不同模型的提示与注意事项   
 <i class="fa-solid fa-check"></i>  修复了部分电脑由于分辨率而导致软件界面显示不全的问题  
@@ -50,10 +64,11 @@ Dearun软件最新版本： **2.1.9.2**
 <i class="fa-solid fa-check"></i> 新增`窗口DEA(Windows DEA)`模型，可以自行设定窗口期  
 <i class="fa-solid fa-check"></i> 新增`Meta-Frontier`与`Meta-Frontier Malmquist指数`计算方法  
  <i class="fa-solid fa-check"></i> 软件内新增`帮助`按钮，详细介绍了模型选取与数据导入的格式  
+{{< /admonition >}}
 
-> 如果您想查看以往版本更新信息，请点击下方`以往版本更新内容`。
+> 如果您想查更早版本更新信息，请点击下方`以往版本更新内容 v1.0.1-1.1.3`。
 
-{{< admonition type=example title="以往版本更新内容" open=false >}}
+{{< admonition type=example title="以往版本更新内容  v1.0.1-1.1.3" open=false >}}
 <i class="fa-solid fa-champagne-glasses"></i> **1.1.3 版本更新时间：2022年7月14日**   
 <i class="fa-solid fa-check"></i> 优化页面  
 <i class="fa-solid fa-check"></i> 为了更直观展示结果，`结果输出表格展示`一栏的数据小数点默认保留5位（而保存在excel内的结果数据仍不受影响，为原始输出结果数据）    
@@ -131,7 +146,7 @@ Dearun软件最新版本： **2.1.9.2**
 - **注**  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：([license下载 <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/license.lic))，会提示是否覆盖原文件，点击确认即可。**许可的名字不可改变，如果您下载了多个许可文件，导致许可文件后多了数字，如`license(1).lic`，请删除多余的数字，保持`license.lic`的格式。**
 <img src="\images\许可安装.png" width = "500" height = "310" alt="图片无法加载" align=center /></img>  
 - 顺利的话将会出现如下Dearun图形交互界面：
-<img src="\images\展示_1.png" width = "550" height = "390" alt="图片无法加载" align=center /></img>  
+<img src="\images\展示_3.png" width = "550" height = "390" alt="图片无法加载" align=center /></img>  
 
 <br/> 
 {{< admonition type=failure title="软件兼容性问题" open=true >}}
@@ -145,10 +160,10 @@ Dearun软件最新版本： **2.1.9.2**
 <i class="fa-solid fa-compass"></i> 恭喜您已经成功打开了Dearun，接下来将向您介绍这个软件的功能：
 - 计算传统Radial模型（CCR、BCC）、SBM模型、WSBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型的效率值
 - 可以计算四种主流的交叉效率模型 
+- Pessimistic CCR投入导向模型、CCR产出导向模型、SBM模型  
 - 可通过ZSG-DEA模型进行资源分配
 - 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型的超效率值
 - 可以处理包含非期望产出的情况（除EBM模型外）
- 
 - 针对以上模型可以选取不同的规模报酬性，分别是：CRS（constant returns to scale），VRS（variable returns to scale）
 - 选择传统Radial模型，可以判断规模报酬情况（IRS、CRS、DRS）
 - 计算基于**相邻参比**与**全局参比**的CCR、SBM、SBM超效率、DDF、EBM的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值  
@@ -171,12 +186,13 @@ Dearun软件最新版本： **2.1.9.2**
 ## 6 软件许可使用
 <i class="fa-solid fa-battery-empty"></i>  直接下载的版本为Dearun Trial版 {{< version 2.1.7>}}，内置`License`，为功能限制的版本，提供了以下普通效率模型的测算:
 1. 投入与产出导向的CCR、BCC模型
-2. 非径向的SBM模型（可包含非期望产出）
+2. 非径向的SBM模型（可包含非期望产出，可选择导向）
 3. 投入与产出导向的CCR、BCC超效率模型
 4. Meta-frontier CCR、BCC、SBM模型
 5. 投入与产出导向的CCR、BCC模型的Malmquist指数（全局参比、相邻参比）
-6. Meta-frontier CCR、BCC Malmuqist指数（全局参比）
-7. 两阶段乘性网络DEA模型      
+6. SBM模型的Malmquist指数（全局参比）
+7. Meta-frontier CCR、BCC、SBM Malmuqist指数（全局参比）
+8. 两阶段乘性网络DEA模型      
 
 <i class="fa-solid fa-compass"></i>   为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，将为您提供1天的Dearun Standard版许可，许可期内求解次数不限。具体申请方式请点击[Dearun许可申请 <i class="fa-solid fa-up-right-from-square"></i>](../application/)，填写表单进行提交申请，建议准备好数据并整理好格式后申请。审核通过后将发送到邮箱中，收到邮件后请及时激活。同时也提供长期的软件使用许可，详情请点击页面下方的联系方式进行咨询。
 

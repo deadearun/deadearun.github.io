@@ -11,12 +11,13 @@
 ### Dearun软件版本介绍
 #### Dearun Trial版
 网站上直接下载的版本为Dearun Trial版，为功能受限的版本。Trial版包含以下DEA模型：  
-- 投入与产出导向的传统Radial模型（CCR、BCC）
-- 包含非期望产出的SBM模型（投入导向、产出导向与非导向）
+- 投入与产出导向的CCR、BCC模型
+- 非径向的SBM模型（可包含非期望产出，可选择导向）
 - 投入与产出导向的CCR、BCC超效率模型
 - Meta-frontier CCR、BCC、SBM模型
 - 投入与产出导向的CCR、BCC模型的Malmquist指数（全局参比、相邻参比）
-- Meta-frontier CCR、BCC Malmuqist指数（全局参比）
+- SBM模型的Malmquist指数（全局参比）
+- Meta-frontier CCR、BCC、SBM Malmuqist指数（全局参比）
 - 两阶段乘性网络DEA模型     
 
 **注：**
@@ -27,6 +28,7 @@
 请先下载使用Dearun Trial版本，确保该软件可以在您的电脑上正常使用。Standard版包含以下模型：
 - 计算传统Radial模型（CCR、BCC）、SBM模型、Weighted SBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型的效率值
 - 可以计算四种主流的交叉效率模型 
+- Pessimistic CCR投入导向模型、CCR产出导向模型、SBM模型  
 - 可通过ZSG-DEA模型进行资源分配
 - 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型的超效率值
 - 可以处理包含非期望产出的情况（除EBM模型外）
