@@ -25,7 +25,7 @@ Dearun软件最新版本： **3.0.1**
 > - {{< version 1.1.0 changed >}} 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
 
-{{< version 3.0.1 >}} `更新时间：2022年11月14日`   
+{{< version 3.0.1.1-3 >}} `更新时间：2022年11月14日`   
 <i class="fa-solid fa-check"></i>  提升了软件运行的稳定性   
 <i class="fa-solid fa-check"></i>  网络SBM模型中加入设置非期望产出的选项，并可以分别设置两个阶段的权重    
 
@@ -148,12 +148,12 @@ Dearun软件最新版本： **3.0.1**
 <img src="\images\应用.png" width = "70" height = "70" alt="图片无法加载" align=center /></img>
 > **如果您的电脑安装了360软件，由于软件没有数字签名，所以在使用过程中可能会被误判，但是请放心，绝对正常，请将`Dearun.exe`添加为信任文件**  
 
-- **注**  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：([license下载 <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/license.lic))，会提示是否覆盖原文件，点击确认即可。**许可的名字不可改变，如果您下载了多个许可文件，导致许可文件后多了数字，如`license(1).lic`，请删除多余的数字，保持`license.lic`的格式。**
+- **注**  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：([license下载 <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/license.lic))，如果提示是否覆盖原文件，点击确认即可。**许可的名字不可改变，如果您下载了多个许可文件，导致许可文件后多了数字，如`license(1).lic`，请删除多余的数字，保持`license.lic`的格式。**
 <img src="\images\许可安装.png" width = "500" height = "310" alt="图片无法加载" align=center /></img>  
 - 顺利的话将会出现如下Dearun图形交互界面：
-<img src="\images\展示_3.png" width = "550" height = "390" alt="图片无法加载" align=center /></img>  
 
-<br/> 
+<img src="\images\Dearun展示图片.png" width = "550" height = "370" alt="图片无法加载" align=center /></img>  
+
 {{< admonition type=failure title="软件兼容性问题" open=true >}}
 **如果软件界面显示不正常，请参照网站下方的软件兼容性问题解决方案。**    
 [软件兼容性问题解决方案 <i class="fa-solid fa-square-pen"></i>](../dearun/#7-软件兼容性问题)  {{< version 2.1.7>}}
@@ -179,7 +179,7 @@ Dearun软件最新版本： **3.0.1**
 - 计算多种基础的两阶段网络DEA模型（包含投入、共享投入、中间产品、产出)
 - 无需额外安装低版本的Excel，兼容性好
 
-<img src="\images\涵盖模型.png" width = "800" height = "300" alt="图片无法加载" align=center /></img>
+<img src="\images\涵盖的模型.png" width = "900" height = "450" alt="图片无法加载" align=center /></img>
 
 ## 5 软件使用说明
 {{< admonition type=tip title="提示" open=True >}}
@@ -213,7 +213,7 @@ Dearun软件最新版本： **3.0.1**
 <i class="fa-solid fa-award"></i>  大家有什么想法的话，欢迎评论区下方留言！ 
 {{< /typeit >}}
 
-![高校使用情况词云图](/images/使用高校情况词云图.png "高校使用情况词云图")
+![高校使用情况词云图](/images/中文词云图.png "高校使用情况词云图 (根据许可申请信息整理)")
 
 ## 9 Support or Contact
 

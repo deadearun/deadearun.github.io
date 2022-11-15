@@ -7,14 +7,14 @@
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-book-bookmark"></i>  Dearun软件包含了当前DEA研究领域的主流模型，包括基础效率模型、超效率模型、网络DEA模型以及动态Malmquist指数分析，并可以处理存在非期望产出的情形。本文将向您介绍**Dearun**软件的使用流程，您可以通过下载文中的`实例数据`进行软件操作，便于您更快的上手本软件。  
 
 {{< admonition type=tip title="友情提示" open=True >}}
-**本页面的模型介绍与软件操作方法为之前的版本，且后续将不再更新！** {{< version 2.0.0 deleted>}} 
+**本页面的模型介绍与软件操作方法为之前的版本，已于2022年7月停止更新，且后续将不再更新！** {{< version 2.0.0 deleted>}} 
 
-将全部内置在软件界面里，在软件中点击不同模型的`帮助`按钮即可获取更多支持，软件内的帮助会更加详细！！ 
+所有帮助文件将全部内置在软件界面里，在软件中点击不同模型的`帮助`按钮即可获取更多支持，软件内的帮助会更加详细！！ 
 {{< /admonition >}}
 
 ### Dearun功能介绍
 <i class="fa-solid fa-compass"></i> 恭喜您已经成功打开了Dearun，接下来将向您介绍这个软件的功能：
-<img src="\images\涵盖模型.png" width = "800" height = "300" alt="图片无法加载" align=center /></img>
+<img src="\images\涵盖的模型.png" width = "800" height = "400" alt="图片无法加载" align=center /></img>
 
 
 ### Dearun使用流程
