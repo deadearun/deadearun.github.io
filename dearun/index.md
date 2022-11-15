@@ -12,11 +12,7 @@
 [备用链接2](https://dearun.buzz/dearun/)&nbsp;
 [备用链接3](https://dearun.club/dearun/)    
 
-{{< style "text-align:right; strong{color:#00b1ff;}" >}}
-Dearun软件最新版本： **3.0.1**
-{{< /style >}}
-
-
+&nbsp;&nbsp;&nbsp;&nbsp;> Dearun软件最新版本： **3.0.1**
 
 ## 2 版本信息
 ### 版本更新信息
