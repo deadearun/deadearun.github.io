@@ -21,10 +21,15 @@ Dearun软件最新版本： **3.0.1**
 ## 2 版本信息
 ### 版本更新信息
 > - 每次使用前，请点击`检查更新`按钮来进行版本更新并安装，如有新版本会提示您，新版本会修正旧版本的部分BUG，请**务必进行更新**
-> - 1.1.0版本之前，更新需要前往官网下载安装包，并提前备份好获取的`license`文件，安装完毕后，将备份好的`license`文件重新放入安装目录中
+> - 1.1.0版本之前，更新需要前往官网下载安装包，并提前备份好获取的license文件，安装完毕后，将备份好的license文件重新放入安装目录中
 > - {{< version 1.1.0 changed >}} 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
-{{< version 3.0.1 >}} `更新时间：2022年11月10日` 
+
+{{< version 3.0.1 >}} `更新时间：2022年11月14日`   
+<i class="fa-solid fa-check"></i>  提升了软件运行的稳定性   
+<i class="fa-solid fa-check"></i>  网络SBM模型中加入设置非期望产出的选项，并可以分别设置两个阶段的权重    
+
+{{< version 3.0.1 >}} `更新时间：2022年11月10日`   
 **注：本次更新需要重新下载安装包，无法在软件内点击`检查更新`进行更新。**  
 <i class="fa-solid fa-check"></i>  “常规效率模型”、“超效率模型”、“网络DEA”选项卡增添了计算面板数据效率值的功能，只需要导入面板数据后，点击“包含时期列”，即可得到面板数据的全局效率值  
 <i class="fa-solid fa-check"></i>  加入Pessimistic CCR投入导向、CCR产出导向、SBM模型  
@@ -37,11 +42,12 @@ Dearun软件最新版本： **3.0.1**
 <i class="fa-solid fa-check"></i>  在有网络的情况下，软件启动后会自动检查更新  
 <i class="fa-solid fa-check"></i>  Dearun trial版本新增了一个可以直接使用的模型：SBM模型的全局Malmquist指数  
 <i class="fa-solid fa-check"></i>  优化了界面UI，提示更为直观，同时修复其他错误  
+
+{{< admonition type=abstract title="近期版本更新内容 v2.0.0-2.1.7" open=false >}}
 {{< version 2.1.8-2.1.9 >}} `更新时间：2022年9月27日`  
 <i class="fa-solid fa-check"></i>  在无导向SBM模型的基础上新增了投入导向与产出导向的SBM模型  
 <i class="fa-solid fa-check"></i>  在无导向SBM超效率模型的基础上新增了投入导向与产出导向的SBM超效率模型    
 
-{{< admonition type=example title="近期版本更新内容 v2.0.0-2.1.7" open=false >}}
 {{< version 2.0.7-2.1.7 >}} `更新时间：2022年9月12日`  
 <i class="fa-solid fa-check"></i>  提升用户体验，完善了不同模型的提示与注意事项   
 <i class="fa-solid fa-check"></i>  修复了部分电脑由于分辨率而导致软件界面显示不全的问题  
@@ -66,9 +72,9 @@ Dearun软件最新版本： **3.0.1**
  <i class="fa-solid fa-check"></i> 软件内新增`帮助`按钮，详细介绍了模型选取与数据导入的格式  
 {{< /admonition >}}
 
-> 如果您想查更早版本更新信息，请点击下方`以往版本更新内容 v1.0.1-1.1.3`。
+*如果您想查更早版本更新信息，请点击下方`以往版本更新内容 v1.0.1-1.1.3`。*
 
-{{< admonition type=example title="以往版本更新内容  v1.0.1-1.1.3" open=false >}}
+{{< admonition type=abstract title="以往版本更新内容  v1.0.1-1.1.3" open=false >}}
 <i class="fa-solid fa-champagne-glasses"></i> **1.1.3 版本更新时间：2022年7月14日**   
 <i class="fa-solid fa-check"></i> 优化页面  
 <i class="fa-solid fa-check"></i> 为了更直观展示结果，`结果输出表格展示`一栏的数据小数点默认保留5位（而保存在excel内的结果数据仍不受影响，为原始输出结果数据）    
@@ -116,8 +122,7 @@ Dearun软件最新版本： **3.0.1**
 <i class="fa-solid fa-circle-right"></i> 未来将支持更多的模型，如果您有什么好的提议，欢迎在评论区进行留言 <i class="fa-regular fa-face-smile-wink"></i>    
 
 ## 3 下载与安装
-> 1. 本软件目前只支持64位Windows系统下载使用，暂不支持mac系统  
-> 2. 为方便版本管理，目前已经移除了原始的安装方式 {{< version 1.0.1 changed>}}，如果您之前采用的是第二种安装方式，请删除原来的版本，并按照以下教程进行一键安装
+> 本软件目前只支持64位Windows系统下载使用，暂不支持mac系统  
 ### 下载
 
  <div style='display: none'>- 点击这里获取Dearun安装文件：<i class="fa-solid fa-file-zipper"></i> [云盘链接](https://share.weiyun.com/DmbYXpTv)，密码：`Dearun`
@@ -180,7 +185,7 @@ Dearun软件最新版本： **3.0.1**
 {{< admonition type=tip title="提示" open=True >}}
 软件操作指南请点击：[Dearun软件操作指南 <i class="fa-solid fa-up-right-from-square"></i>](../method/)  
 
-**注：此链接的模型介绍与软件操作方法将不再更新！将全部内置在软件界面里 {{< version 2.0.0>}}，请在软件中点击不同模型的`帮助`按钮即可获取更多支持，软件内的帮助会更加详细**
+**注：此链接的模型介绍与软件操作方法将不再更新！将全部内置在软件界面里，请在软件中点击不同模型的`帮助`按钮即可获取更多支持，软件内的帮助会更加详细**
 {{< /admonition >}}
 
 ## 6 软件许可使用
