@@ -14,12 +14,104 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;> Dearun软件最新版本： **3.0.1**
 
-## 2 版本信息
+
+## 2 下载与安装
+> 本软件目前只支持64位Windows系统下载使用，暂不支持mac系统  
+> **注**：如果您当前版本为3.0版本以下，**请及时更新到3.0版本以上**，本次更新需要**重新下载**安装包，请在安装前备份好许可文件，最新更新内容请点击：[版本更新日志 <i class="fa-solid fa-square-pen"></i>](../dearun/#7-版本信息) 
+### 下载
+
+ <div style='display: none'>- 点击这里获取Dearun安装文件：<i class="fa-solid fa-file-zipper"></i> [云盘链接](https://share.weiyun.com/DmbYXpTv)，密码：`Dearun`
+- 如上述链接无法加载，或者下载较慢，请点击此：[安装包下载](https://app.tmp.link/?tmpui_page=/file&ukey=62b76175bdce4)
+> 以上链接请用IE浏览器打开，用手机自带浏览器可能会报错</div>
+
+- 点击这里获取Dearun安装文件：<i class="fa-solid fa-file-zipper"></i> [下载链接 <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/Dearun_Setup.exe)
+
+{{< admonition type=failure title="下载失败解决方案" open=true >}}
+1. 如果点击下载链接没反应，请更换浏览器重试；
+2. 如果提示`无法安全下载Dearun_Setup.exe`，请右键点击该提示，在弹出的对话框里选择`仍然保留`，即可开始下载。
+{{< /admonition >}}
+
+### 安装
+- 请按照以下步骤运行Dearun
+1. 点击`Dearun_Setup.exe`文件  
+<img src="\images\Dearun_Setup.png" width = "70" height = "70" alt="图片无法加载" align=center /></img>
+2. 请跟随安装步骤来即可，建议安装在`D、E盘`等非系统盘  
+<img src="\images\安装步骤1.png"  width = "300" height = "200" alt="图片无法加载" align=center /></img>  
+<img src="\images\安装步骤2.png" width = "300" height = "200" alt="图片无法加载" align=center /></img>
+
+3. 双击运行桌面上的`Dearun.exe`  
+<img src="\images\应用.png" width = "70" height = "70" alt="图片无法加载" align=center /></img>
+> **如果您的电脑安装了360软件，由于软件没有数字签名，所以在使用过程中可能会被误判，但是请放心，绝对正常，请将`Dearun.exe`添加为信任文件**  
+
+- **注**  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：([license下载 <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/license.lic))，如果提示是否覆盖原文件，点击确认即可。**许可的名字不可改变，如果您下载了多个许可文件，导致许可文件后多了数字，如`license(1).lic`，请删除多余的数字，保持`license.lic`的格式。**
+<img src="\images\许可安装.png" width = "500" height = "300" alt="图片无法加载" align=center /></img>  
+- 顺利的话将会出现如下Dearun图形交互界面：
+
+<img src="\images\Dearun展示图片.png" width = "550" height = "350" alt="图片无法加载" align=center /></img>  
+
+{{< admonition type=failure title="软件兼容性问题" open=true >}}
+**如果软件界面显示不正常，请参照网站下方的软件兼容性问题解决方案。**    
+[软件兼容性问题解决方案 <i class="fa-solid fa-square-pen"></i>](../dearun/#6-软件兼容性问题)  {{< version 2.1.7>}}
+{{< /admonition >}}
+
+
+## 3 Dearun功能介绍
+
+<i class="fa-solid fa-compass"></i> 恭喜您已经成功打开了Dearun，接下来将向您介绍这个软件的功能：
+- 计算传统Radial模型（CCR、BCC）、SBM模型、WSBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型的效率值
+- 可以计算四种主流的交叉效率模型 
+- Pessimistic CCR投入导向模型、CCR产出导向模型、SBM模型  
+- 可通过ZSG-DEA模型进行资源分配
+- 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型的超效率值
+- 可以处理包含非期望产出的情况（除EBM模型外）
+- 针对以上模型可以选取不同的规模报酬性，分别是：CRS（constant returns to scale），VRS（variable returns to scale）
+- 选择传统Radial模型，可以判断规模报酬情况（IRS、CRS、DRS）
+- 计算基于**相邻参比**与**全局参比**的CCR、SBM、SBM超效率、DDF、EBM的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值  
+- 计算ML指数模型与GML指数模型
+- 计算全局参比的Directional SBM模型、Non-radial DDF模型的Malmquist Luenberger指数与Luenberger指数
+- 计算窗口DEA模型，可自行设置窗口期
+- 计算Meta-frontier模型
+- 计算多种基础的两阶段网络DEA模型（包含投入、共享投入、中间产品、产出)
+- 无需额外安装低版本的Excel，兼容性好
+
+<img src="\images\涵盖的模型.png" width = "900" height = "400" alt="图片无法加载" align=center /></img>
+
+## 4 软件使用说明
+{{< admonition type=tip title="提示" open=True >}}
+软件操作指南请点击：[Dearun软件操作指南 <i class="fa-solid fa-up-right-from-square"></i>](../method/)  
+
+**注：此链接的模型介绍与软件操作方法将不再更新！将全部内置在软件界面里，请在软件中点击不同模型的`帮助`按钮即可获取更多支持，软件内的帮助会更加详细**
+{{< /admonition >}}
+
+## 5 软件许可使用
+<i class="fa-solid fa-battery-empty"></i>  直接下载的版本为Dearun Trial版 {{< version 2.1.7>}}，内置`License`，为功能限制的版本，提供了以下普通效率模型的测算:
+1. 投入与产出导向的CCR、BCC模型
+2. 非径向的SBM模型（可包含非期望产出，可选择导向）
+3. 投入与产出导向的CCR、BCC超效率模型
+4. Meta-frontier CCR、BCC、SBM模型
+5. 投入与产出导向的CCR、BCC模型的Malmquist指数（全局参比、相邻参比）
+6. SBM模型的Malmquist指数（全局参比）
+7. Meta-frontier CCR、BCC、SBM Malmuqist指数（全局参比）
+8. 两阶段乘性网络DEA模型      
+
+<i class="fa-solid fa-compass"></i>   为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，将为您提供1天的Dearun Standard版许可，许可期内求解次数不限。具体申请方式请点击[Dearun许可申请 <i class="fa-solid fa-up-right-from-square"></i>](../application/)，填写表单进行提交申请，建议准备好数据并整理好格式后申请。审核通过后将发送到邮箱中，收到邮件后请及时激活。同时也提供长期的软件使用许可，详情请点击页面下方的联系方式进行咨询。
+
+<i class="fa-solid fa-circle-right"></i>  有关软件使用过程中的更多问题请点击 [软件使用须知 <i class="fa-solid fa-up-right-from-square"></i>](../query/)，操作演示数据请点击[示例数据下载 <i class="fa-solid fa-table"></i>](../data/) 获取。
+## 6 软件兼容性问题
+<img src="\images\兼容性问题1.png" width = "550" height = "600" alt="图片无法加载" align=center /></img>   
+**Note**：软件内置的求解器采用的是当今学业与业界评价十分高的开源求解器，本软件基于此求解器进行算法代码的书写，足以解决中小规模的`DEA问题`，且求解速度十分快。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug <i class="fa-regular fa-face-sad-tear"></i> ，如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
+
+## 7 版本信息
 ### 版本更新信息
 > - 每次使用前，请点击`检查更新`按钮来进行版本更新并安装，如有新版本会提示您，新版本会修正旧版本的部分BUG，请**务必进行更新**
 > - 1.1.0版本之前，更新需要前往官网下载安装包，并提前备份好获取的license文件，安装完毕后，将备份好的license文件重新放入安装目录中
 > - {{< version 1.1.0 changed >}} 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
+{{< version 3.0.1.4-6 >}} `更新时间：2022年11月24日`   
+<i class="fa-solid fa-check"></i>  新增了软件中表格可以直接复制的功能     
+<i class="fa-solid fa-check"></i>  交叉效率矩阵新增导出交叉效率矩阵功能  
+<i class="fa-solid fa-check"></i>  数据检查时新增对负值及数据量纲问题的检查   
+<i class="fa-solid fa-check"></i>  点击结果保存会提示是否打开结果文件夹，更加方便 
 
 {{< version 3.0.1.1-3 >}} `更新时间：2022年11月14日`   
 <i class="fa-solid fa-check"></i>  提升了软件运行的稳定性   
@@ -116,92 +208,6 @@
 {{< /admonition >}}
 ### 未来版本展望
 <i class="fa-solid fa-circle-right"></i> 未来将支持更多的模型，如果您有什么好的提议，欢迎在评论区进行留言 <i class="fa-regular fa-face-smile-wink"></i>    
-
-## 3 下载与安装
-> 本软件目前只支持64位Windows系统下载使用，暂不支持mac系统  
-### 下载
-
- <div style='display: none'>- 点击这里获取Dearun安装文件：<i class="fa-solid fa-file-zipper"></i> [云盘链接](https://share.weiyun.com/DmbYXpTv)，密码：`Dearun`
-- 如上述链接无法加载，或者下载较慢，请点击此：[安装包下载](https://app.tmp.link/?tmpui_page=/file&ukey=62b76175bdce4)
-> 以上链接请用IE浏览器打开，用手机自带浏览器可能会报错</div>
-
-- 点击这里获取Dearun安装文件：<i class="fa-solid fa-file-zipper"></i> [下载链接 <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/Dearun_Setup.exe)
-
-{{< admonition type=failure title="下载失败解决方案" open=true >}}
-1. 如果点击下载链接没反应，请更换浏览器重试；
-2. 如果提示`无法安全下载Dearun_Setup.exe`，请右键点击该提示，在弹出的对话框里选择`仍然保留`，即可开始下载。
-{{< /admonition >}}
-
-### 安装
-- 请按照以下步骤运行Dearun
-1. 点击`Dearun_Setup.exe`文件  
-<img src="\images\Dearun_Setup.png" width = "70" height = "70" alt="图片无法加载" align=center /></img>
-2. 请跟随安装步骤来即可，建议安装在`D、E盘`等非系统盘  
-<img src="\images\安装步骤1.png"  width = "300" height = "200" alt="图片无法加载" align=center /></img>  
-<img src="\images\安装步骤2.png" width = "300" height = "200" alt="图片无法加载" align=center /></img>
-
-3. 双击运行桌面上的`Dearun.exe`  
-<img src="\images\应用.png" width = "70" height = "70" alt="图片无法加载" align=center /></img>
-> **如果您的电脑安装了360软件，由于软件没有数字签名，所以在使用过程中可能会被误判，但是请放心，绝对正常，请将`Dearun.exe`添加为信任文件**  
-
-- **注**  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：([license下载 <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/license.lic))，如果提示是否覆盖原文件，点击确认即可。**许可的名字不可改变，如果您下载了多个许可文件，导致许可文件后多了数字，如`license(1).lic`，请删除多余的数字，保持`license.lic`的格式。**
-<img src="\images\许可安装.png" width = "500" height = "310" alt="图片无法加载" align=center /></img>  
-- 顺利的话将会出现如下Dearun图形交互界面：
-
-<img src="\images\Dearun展示图片.png" width = "550" height = "370" alt="图片无法加载" align=center /></img>  
-
-{{< admonition type=failure title="软件兼容性问题" open=true >}}
-**如果软件界面显示不正常，请参照网站下方的软件兼容性问题解决方案。**    
-[软件兼容性问题解决方案 <i class="fa-solid fa-square-pen"></i>](../dearun/#7-软件兼容性问题)  {{< version 2.1.7>}}
-{{< /admonition >}}
-
-
-## 4 Dearun功能介绍
-
-<i class="fa-solid fa-compass"></i> 恭喜您已经成功打开了Dearun，接下来将向您介绍这个软件的功能：
-- 计算传统Radial模型（CCR、BCC）、SBM模型、WSBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型的效率值
-- 可以计算四种主流的交叉效率模型 
-- Pessimistic CCR投入导向模型、CCR产出导向模型、SBM模型  
-- 可通过ZSG-DEA模型进行资源分配
-- 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型的超效率值
-- 可以处理包含非期望产出的情况（除EBM模型外）
-- 针对以上模型可以选取不同的规模报酬性，分别是：CRS（constant returns to scale），VRS（variable returns to scale）
-- 选择传统Radial模型，可以判断规模报酬情况（IRS、CRS、DRS）
-- 计算基于**相邻参比**与**全局参比**的CCR、SBM、SBM超效率、DDF、EBM的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值  
-- 计算ML指数模型与GML指数模型
-- 计算全局参比的Directional SBM模型、Non-radial DDF模型的Malmquist Luenberger指数与Luenberger指数
-- 计算窗口DEA模型，可自行设置窗口期
-- 计算Meta-frontier模型
-- 计算多种基础的两阶段网络DEA模型（包含投入、共享投入、中间产品、产出)
-- 无需额外安装低版本的Excel，兼容性好
-
-<img src="\images\涵盖的模型.png" width = "900" height = "450" alt="图片无法加载" align=center /></img>
-
-## 5 软件使用说明
-{{< admonition type=tip title="提示" open=True >}}
-软件操作指南请点击：[Dearun软件操作指南 <i class="fa-solid fa-up-right-from-square"></i>](../method/)  
-
-**注：此链接的模型介绍与软件操作方法将不再更新！将全部内置在软件界面里，请在软件中点击不同模型的`帮助`按钮即可获取更多支持，软件内的帮助会更加详细**
-{{< /admonition >}}
-
-## 6 软件许可使用
-<i class="fa-solid fa-battery-empty"></i>  直接下载的版本为Dearun Trial版 {{< version 2.1.7>}}，内置`License`，为功能限制的版本，提供了以下普通效率模型的测算:
-1. 投入与产出导向的CCR、BCC模型
-2. 非径向的SBM模型（可包含非期望产出，可选择导向）
-3. 投入与产出导向的CCR、BCC超效率模型
-4. Meta-frontier CCR、BCC、SBM模型
-5. 投入与产出导向的CCR、BCC模型的Malmquist指数（全局参比、相邻参比）
-6. SBM模型的Malmquist指数（全局参比）
-7. Meta-frontier CCR、BCC、SBM Malmuqist指数（全局参比）
-8. 两阶段乘性网络DEA模型      
-
-<i class="fa-solid fa-compass"></i>   为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，将为您提供1天的Dearun Standard版许可，许可期内求解次数不限。具体申请方式请点击[Dearun许可申请 <i class="fa-solid fa-up-right-from-square"></i>](../application/)，填写表单进行提交申请，建议准备好数据并整理好格式后申请。审核通过后将发送到邮箱中，收到邮件后请及时激活。同时也提供长期的软件使用许可，详情请点击页面下方的联系方式进行咨询。
-
-<i class="fa-solid fa-circle-right"></i>  有关软件使用过程中的更多问题请点击 [软件使用须知 <i class="fa-solid fa-up-right-from-square"></i>](../query/)，操作演示数据请点击[示例数据下载 <i class="fa-solid fa-table"></i>](../data/) 获取。
-## 7 软件兼容性问题
-<img src="\images\兼容性问题1.png" width = "550" height = "600" alt="图片无法加载" align=center /></img>   
-**Note**：软件内置的求解器采用的是当今学业与业界评价十分高的开源求解器，本软件基于此求解器进行算法代码的书写，足以解决中小规模的`DEA问题`，且求解速度十分快。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug <i class="fa-regular fa-face-sad-tear"></i> ，如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
-
 
 
 ## 8 结语
