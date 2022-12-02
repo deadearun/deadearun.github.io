@@ -59,7 +59,7 @@
 
 <i class="fa-solid fa-compass"></i> 恭喜您已经成功打开了Dearun，接下来将向您介绍这个软件的功能：
 - 计算传统Radial模型（CCR、BCC）、SBM模型、WSBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型的效率值
-- 可以计算四种主流的交叉效率模型 
+- 可以计算六种主流的交叉效率模型 
 - Pessimistic CCR投入导向模型、CCR产出导向模型、SBM模型  
 - 可通过ZSG-DEA模型进行资源分配
 - 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型的超效率值
