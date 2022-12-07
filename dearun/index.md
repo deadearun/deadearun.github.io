@@ -107,11 +107,15 @@
 > - 1.1.0版本之前，更新需要前往官网下载安装包，并提前备份好获取的license文件，安装完毕后，将备份好的license文件重新放入安装目录中
 > - {{< version 1.1.0 changed >}} 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
-{{< version 3.0.1.4-6 >}} `更新时间：2022年11月24日`   
+{{< version 3.0.1.4-6 >}} `更新时间：2022年12月7日`   
 <i class="fa-solid fa-check"></i>  新增了软件中表格可以直接复制的功能     
 <i class="fa-solid fa-check"></i>  交叉效率矩阵新增导出交叉效率矩阵功能  
 <i class="fa-solid fa-check"></i>  数据检查时新增对负值及数据量纲问题的检查   
-<i class="fa-solid fa-check"></i>  点击结果保存会提示是否打开结果文件夹，更加方便 
+<i class="fa-solid fa-check"></i>  点击结果保存会提示是否打开结果文件夹，更加方便   
+<i class="fa-solid fa-check"></i>  窗口SBM模型中新增选择导向的功能    
+<i class="fa-solid fa-check"></i>  如导入面板数据，新增检查是否满足软件所需平衡面板数据格式的功能   
+<i class="fa-solid fa-check"></i>  减少了计算过程中闪退的情况
+ 
 
 {{< version 3.0.1.1-3 >}} `更新时间：2022年11月14日`   
 <i class="fa-solid fa-check"></i>  提升了软件运行的稳定性   
