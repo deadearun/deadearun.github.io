@@ -53,6 +53,7 @@
 
 <i class="fa-solid fa-compass"></i> Congratulations! you have successfully opened Dearun and will be introduced to the functions of the software:  
 - Calculation of efficiency values for conventional Radial (CCR, BCC), SBM, WSBM, DDF, EBM, MinDP (minimum distance to frontier), Directional SBM, Non-radial DDF models 
+- Calculation of efficiency value for FDH model
 - Six mainstream cross-efficiency models can be calculated 
 - Pessimistic input oriented CCR model,output oriented CCR model, SBM model  
 - ZSG-DEA model

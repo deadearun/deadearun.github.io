@@ -58,9 +58,10 @@
 ## 3 Dearun功能介绍
 
 <i class="fa-solid fa-compass"></i> 恭喜您已经成功打开了Dearun，接下来将向您介绍这个软件的功能：
-- 计算传统Radial模型（CCR、BCC）、SBM模型、WSBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型的效率值
+- 计算传统Radial模型（CCR、BCC）、SBM模型、WSBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型的效率值 （可输出λ系数矩阵与权重系数矩阵）
+- 计算FDH模型的效率值
 - 可以计算六种主流的交叉效率模型 
-- Pessimistic CCR投入导向模型、CCR产出导向模型、SBM模型  
+- Pessimistic CCR投入导向模型、CCR产出导向模型   
 - 可通过ZSG-DEA模型进行资源分配
 - 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型的超效率值
 - 可以处理包含非期望产出的情况（除EBM模型外）
@@ -107,10 +108,14 @@
 > - 1.1.0版本之前，更新需要前往官网下载安装包，并提前备份好获取的license文件，安装完毕后，将备份好的license文件重新放入安装目录中
 > - {{< version 1.1.0 changed >}} 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
-{{< version 3.0.1.4-6 >}} `更新时间：2022年12月7日`   
+
+{{< version 3.0.1.4-6 >}} `更新时间：2022年12月18日`   
 <i class="fa-solid fa-check"></i>  新增了软件中表格可以直接复制的功能     
-<i class="fa-solid fa-check"></i>  交叉效率矩阵新增导出交叉效率矩阵功能  
-<i class="fa-solid fa-check"></i>  数据检查时新增对负值及数据量纲问题的检查   
+<i class="fa-solid fa-check"></i>  新增FDH (Free disposal hull) 模型 (投入与产出导向)    
+<i class="fa-solid fa-check"></i>  `交叉效率模型`新增导出交叉效率矩阵功能   
+<i class="fa-solid fa-check"></i>  `常规效率模型`与`超效率模型`选项卡支持导出λ系数矩阵     
+<i class="fa-solid fa-check"></i>  DDF模型、CCR/DDF超效率模型新增输出改进值   
+<i class="fa-solid fa-check"></i>  数据检查时新增对负值及数据量纲问题的检查     
 <i class="fa-solid fa-check"></i>  点击结果保存会提示是否打开结果文件夹，更加方便   
 <i class="fa-solid fa-check"></i>  窗口SBM模型中新增选择导向的功能    
 <i class="fa-solid fa-check"></i>  如导入面板数据，新增检查是否满足软件所需平衡面板数据格式的功能   
