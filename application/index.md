@@ -5,18 +5,18 @@
 <script src="https://assets.salesmartly.com/js/project_3040_3314_1657543658.js"></script>
 
 ## Dearun软件简介
-<i class="fa-brands fa-fly"></i>&nbsp;**软件介绍**：Dearun软件包含了当前 DEA 研究领域的主流模型，包括基础效率模型、超效率模型、网络 DEA 模型以及动态 Malmquist 指数分析，可以处理产出包含非期望产出的情形，同时涵盖了在评价时数据为截面类型与面板类型的情形。本软件操作简单，便于使用者快速上手。 
+**软件介绍**：Dearun软件包含了当前 DEA 研究领域的主流模型，包括基础效率模型、超效率模型、网络 DEA 模型以及动态 Malmquist 指数分析，可以处理产出包含非期望产出的情形，同时涵盖了在评价时数据为截面类型与面板类型的情形。本软件操作简单，便于使用者快速上手。 
      
-:(fas fa-desktop): **运行系统**：Windows 10/ Windows11  
+**运行系统**：:(fas fa-desktop): Windows 10/ Windows11  
 > 注：暂不支持Mac系统  
 
-<i class="fa-solid fa-champagne-glasses"></i>**目前可求解的模型**：
+**目前可求解的模型**：
 <img src="\images\涵盖的模型.png" width = "900" height = "450" alt="图片无法加载" align=center /></img>
 > 更多模型正在不断开发中...尽请期待
 
 ## 获取Dearun许可
 ### Dearun许可申请
-为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，我们将为您提供1天的Dearun全功能license，许可期内求解次数不限。  
+为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，我们将为您提供一定时间内的Dearun全功能license，许可期内求解次数不限。  
 注意：SBMrun软件也是由本链接进行申请，*如果是申请SBMrun软件的许可，请在`使用用途`中进行备注*。  
 <div style="display:none">
 <script type='text/javascript' src='https://www.wjx.top/handler/jqemed.ashx?activity=YLFgrDm&width=760&source=iframe'></script>  
@@ -56,7 +56,6 @@ echo %USERNAME%
 <i class="fa-solid fa-award"></i>  大家有什么想法的话，欢迎联系我！谢谢大家的支持~
 
 ## Support or Contact
-<i class="fa-brands fa-qq"></i> QQ：:(fas fa-address-card): 2229263318
-<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2229263318&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2229263318:41" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+<admin@dearun.top>
 
 

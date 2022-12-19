@@ -7,7 +7,7 @@
 ### Dearun软件简介
 <p style="text-indent:2em">Dearun软件包含了当前 DEA 研究领域的主流模型，包括基础效率模型、超效率模型、网络 DEA 模型以及动态 Malmquist 指数分析，可以处理产出包含非期望产出的情形，同时涵盖了在评价时数据为截面类型与面板类型的情形。无需依赖其他环境，操作简单，便于上手。    
 
-**运行系统**：Windows 10/ Windows11  64位/32位
+**运行系统**：:(fas fa-desktop): Windows 10/ Windows11  64位/32位
 ### Dearun软件版本介绍
 #### Dearun Trial版
 网站上直接下载的版本为Dearun Trial版，为功能受限的版本。Trial版包含以下DEA模型：  
@@ -41,7 +41,7 @@
 - 计算多种基础的两阶段网络DEA模型（包含投入、共享投入、中间产品、产出)
 
 ##### Dearun Standard版许可获取方式：
-1. 为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，将为您提供1天的Dearun Standard版许可，许可期内求解次数不限。具体申请方式请返回网站首页，点击`Dearun许可申请`，填写表单进行提交申请，建议准备好数据并整理好格式后申请。审核通过后将发送到邮箱中，收到邮件后请及时激活。
+1. 为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，将为您提供一定时间的Dearun Standard版许可，许可期内求解次数不限。具体申请方式请返回网站首页，点击`Dearun许可申请`，填写表单进行提交申请，建议准备好数据并整理好格式后申请。审核通过后将发送到邮箱中，收到邮件后请及时激活。
 2. 同时也提供长期的软件使用许可，详情请点击页面下方的联系方式进行咨询。
 
 ### 常见问题解答
@@ -75,7 +75,6 @@ Dearun Standard版软件提供了半年期与一年期的许可，详情请咨�
 10. 软件是否享有更新服务？  
 是的，软件后续的所有版本，均可以进行更新下载。
 
-
 11. 将许可文件放入后提示错误怎么办？  
 如果您将许可文件放入后，软件界面提示错误，请检查许可文件是否放置正确，即放置在软件的安装目录下，并且文件名为`license.lic`的格式。如果提示许可出错，请联系技术支持人员。
 
@@ -95,5 +94,4 @@ The copyright of this software belongs to Dearun developer. All rights are prote
 <i class="fa-solid fa-award"></i>  大家有什么想法的话，欢迎联系我！谢谢大家的支持~
 
 ### Support or Contact
-<i class="fa-brands fa-qq"></i> QQ：:(fas fa-address-card): 2229263318
-<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2229263318&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2229263318:41" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+<admin@dearun.top>

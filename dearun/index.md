@@ -4,11 +4,11 @@
 <script src="https://kit.fontawesome.com/5519c56e9e.js" crossorigin="anonymous"></script>
 <script src="https://assets.salesmartly.com/js/project_3040_3314_1657543658.js"></script>
 ## 1 软件简介
-&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-brands fa-fly"></i> 数据包络分析(Data envelopment analysis, DEA) 是一种评价具有多投入和多产出的决策单元(Decision-making unit, DMU)相对有效性的非参数方法，其无需预先给定权重和假设分布，可以直接通过投入与产出数据来确定生产前沿面的结构。作为数学、运筹学与计算机的交叉研究领域，DEA方法在多个领域有着广泛的应用。  
+&nbsp;&nbsp;&nbsp;&nbsp; 数据包络分析(Data envelopment analysis, DEA) 是一种评价具有多投入和多产出的决策单元(Decision-making unit, DMU)相对有效性的非参数方法，其无需预先给定权重和假设分布，可以直接通过投入与产出数据来确定生产前沿面的结构。作为数学、运筹学与计算机的交叉研究领域，DEA方法在多个领域有着广泛的应用。  
 
-&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-book-bookmark"></i>  大部分刚接触DEA的研究人员，可能都会对这类优化模型有着很深的疑惑，不知从何下手。如果想彻底明白DEA模型的机理，必须熟练掌握并运用运筹学的相关知识，包括如何建立、求解、分析优化模型，这意味着较高的学习成本。目前市面上也有一些软件来处理DEA模型，但是免费的软件只能求解简单的CCR/BCC模型，根本无法满足日常的研究需求。这也是开发本软件的初衷，其中包含了当前DEA研究领域的主流模型，包括基础效率模型、超效率模型、网络DEA模型以及动态Malmquist指数分析，并可以处理存在非期望产出的情形。本文将向您介绍**Dearun**软件的安装、运行流程，便于您更快的上手本软件。  
+&nbsp;&nbsp;&nbsp;&nbsp; 大部分刚接触DEA的研究人员，可能都会对这类优化模型有着很深的疑惑，不知从何下手。如果想彻底明白DEA模型的机理，必须熟练掌握并运用运筹学的相关知识，包括如何建立、求解、分析优化模型，这意味着较高的学习成本。目前市面上也有一些软件来处理DEA模型，但是免费的软件只能求解简单的CCR/BCC模型，根本无法满足日常的研究需求。这也是开发本软件的初衷，其中包含了当前DEA研究领域的主流模型，包括基础效率模型、超效率模型、网络DEA模型以及动态Malmquist指数分析，并可以处理存在非期望产出的情形。本文将向您介绍**Dearun**软件的安装、运行流程，便于您更快的上手本软件。  
 
-&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-right"></i>  如果当前网站访问较慢，或者部分图片无法加载，请点击此网站：  [备用链接1](https://dearun.top/dearun/) &nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;如果当前网站访问较慢，或者部分图片无法加载，请点击此网站：<i class="fa-solid fa-circle-right"></i>   [备用链接1](https://dearun.top/dearun/) &nbsp;
 [备用链接2](https://dearun.buzz/dearun/)&nbsp;
 [备用链接3](https://dearun.club/dearun/)    
 
@@ -78,11 +78,14 @@
 <img src="\images\涵盖的模型.png" width = "900" height = "400" alt="图片无法加载" align=center /></img>
 
 ## 4 软件使用说明
+<i class="fa-solid fa-book-bookmark"></i>  请在软件中点击不同模型的`帮助`按钮获取帮助文件
+<div style='display: none'>
 {{< admonition type=tip title="提示" open=True >}}
 软件操作指南请点击：[Dearun软件操作指南 <i class="fa-solid fa-up-right-from-square"></i>](../method/)  
 
 **注：此链接的模型介绍与软件操作方法将不再更新！将全部内置在软件界面里，请在软件中点击不同模型的`帮助`按钮即可获取更多支持，软件内的帮助会更加详细**
 {{< /admonition >}}
+</div>
 
 ## 5 软件许可使用
 <i class="fa-solid fa-battery-empty"></i>  直接下载的版本为Dearun Trial版 {{< version 2.1.7>}}，内置`License`，为功能限制的版本，提供了以下普通效率模型的测算:
@@ -95,12 +98,12 @@
 7. Meta-frontier CCR、BCC、SBM Malmuqist指数（全局参比）
 8. 两阶段乘性网络DEA模型      
 
-<i class="fa-solid fa-compass"></i>   为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，将为您提供1天的Dearun Standard版许可，许可期内求解次数不限。具体申请方式请点击[Dearun许可申请 <i class="fa-solid fa-up-right-from-square"></i>](../application/)，填写表单进行提交申请，建议准备好数据并整理好格式后申请。审核通过后将发送到邮箱中，收到邮件后请及时激活。同时也提供长期的软件使用许可，详情请点击页面下方的联系方式进行咨询。
+<i class="fa-solid fa-compass"></i>   为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，将为您提供一定时间内的Dearun Standard版许可，许可期内求解次数不限。具体申请方式请点击[Dearun许可申请 <i class="fa-solid fa-up-right-from-square"></i>](../application/)，填写表单进行提交申请，建议准备好数据并整理好格式后申请。审核通过后将发送到邮箱中，收到邮件后请及时激活。同时也提供长期的软件使用许可，详情请点击页面下方的联系方式进行咨询。
 
 <i class="fa-solid fa-circle-right"></i>  有关软件使用过程中的更多问题请点击 [软件使用须知 <i class="fa-solid fa-up-right-from-square"></i>](../query/)，操作演示数据请点击[示例数据下载 <i class="fa-solid fa-table"></i>](../data/) 获取。
 ## 6 软件兼容性问题
 <img src="\images\兼容性问题1.png" width = "550" height = "600" alt="图片无法加载" align=center /></img>   
-**Note**：软件内置的求解器采用的是当今学业与业界评价十分高的开源求解器，本软件基于此求解器进行算法代码的书写，足以解决中小规模的`DEA问题`，且求解速度十分快。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug <i class="fa-regular fa-face-sad-tear"></i> ，如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
+
 
 ## 7 版本信息
 ### 版本更新信息
@@ -109,12 +112,13 @@
 > - {{< version 1.1.0 changed >}} 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
 
-{{< version 3.0.1.4-6 >}} `更新时间：2022年12月18日`   
+{{< version 3.0.1.4-6 >}} `更新时间：2022年12月19日`   
 <i class="fa-solid fa-check"></i>  新增了软件中表格可以直接复制的功能     
 <i class="fa-solid fa-check"></i>  新增FDH (Free disposal hull) 模型 (投入与产出导向)    
 <i class="fa-solid fa-check"></i>  `交叉效率模型`新增导出交叉效率矩阵功能   
 <i class="fa-solid fa-check"></i>  `常规效率模型`与`超效率模型`选项卡支持导出λ系数矩阵     
-<i class="fa-solid fa-check"></i>  DDF模型、CCR/DDF超效率模型新增输出改进值   
+<i class="fa-solid fa-check"></i>  DDF模型、Non-radial DDF模型、CCR/DDF超效率模型新增输出改进值   
+<i class="fa-solid fa-check"></i>  窗口DEA模型中新增CCR超效率与DDF超效率模型  
 <i class="fa-solid fa-check"></i>  数据检查时新增对负值及数据量纲问题的检查     
 <i class="fa-solid fa-check"></i>  点击结果保存会提示是否打开结果文件夹，更加方便   
 <i class="fa-solid fa-check"></i>  窗口SBM模型中新增选择导向的功能    
@@ -218,6 +222,7 @@
 ### 未来版本展望
 <i class="fa-solid fa-circle-right"></i> 未来将支持更多的模型，如果您有什么好的提议，欢迎在评论区进行留言 <i class="fa-regular fa-face-smile-wink"></i>    
 
+**Note**：软件内置的求解器采用的是当今学业与业界评价十分高的开源求解器，本软件基于此求解器进行算法代码的书写，足以解决中小规模的`DEA问题`，且求解速度十分快。由于目前软件的算法实现部分与界面开发功能均由一人完成，难免会出现一些bug <i class="fa-regular fa-face-sad-tear"></i> ，如果您在体验过程中遇到了问题，或者发现计算结果有误，欢迎及时联系我！
 
 ## 8 结语
 {{< typeit >}}
@@ -226,7 +231,11 @@
 
 ![高校使用情况词云图](/images/中文词云图.png "高校使用情况词云图 (根据许可申请信息整理)")
 
-## 9 Support or Contact
 
+## 9 Support or Contact
+<admin@dearun.top>
+
+<div style='display: none'>
 <i class="fa-brands fa-qq"></i> 2229263318
 <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2229263318&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2229263318:41" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+</div>

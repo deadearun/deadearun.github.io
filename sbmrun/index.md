@@ -54,12 +54,11 @@
 ### 软件许可使用
 <i class="fa-solid fa-battery-empty"></i>  直接下载的版本为SBMrun Trial版，内置`License`，以上模型均可以直接免费求解，但是数据规模有限制，数据条目不可以超过50行，而指标数无限制。
 
-<i class="fa-solid fa-compass"></i>   如果您的数据条目更多的话，可以申请SBMrun标准版的许可，许可有限期为一天。具体申请方式请点击[SBMrun许可申请 <i class="fa-solid fa-up-right-from-square"></i>](../application/)，填写表单进行提交申请，建议准备好数据并整理好格式后申请。审核通过后将发送到邮箱中，收到邮件后请及时激活。
+<i class="fa-solid fa-compass"></i>   如果您的数据条目更多的话，可以申请SBMrun标准版的许可。具体申请方式请点击[SBMrun许可申请 <i class="fa-solid fa-up-right-from-square"></i>](../application/)，填写表单进行提交申请，建议准备好数据并整理好格式后申请。审核通过后将发送到邮箱中，收到邮件后请及时激活。
 
 
 ### 结语
 <i class="fa-solid fa-award"></i>  大家有什么想法的话，欢迎联系我！
 
 ### Support or Contact
-<i class="fa-brands fa-qq"></i> QQ：:(fas fa-address-card): 2229263318
-<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2229263318&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2229263318:41" alt="点击这里给我发消息" title="点击这里给我发消息"/></a>
+<admin@dearun.top>
