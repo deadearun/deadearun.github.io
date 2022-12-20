@@ -12,7 +12,7 @@
 [备用链接2](https://dearun.buzz/dearun/)&nbsp;
 [备用链接3](https://dearun.club/dearun/)    
 
-&nbsp;&nbsp;&nbsp;&nbsp;> Dearun软件最新版本： **3.0.1**
+&nbsp;&nbsp;&nbsp;&nbsp;> Dearun软件最新版本： **3.0.2**
 
 
 ## 2 下载与安装
@@ -54,29 +54,28 @@
 [软件兼容性问题解决方案 <i class="fa-solid fa-square-pen"></i>](../dearun/#6-软件兼容性问题)  {{< version 2.1.7>}}
 {{< /admonition >}}
 
-
 ## 3 Dearun功能介绍
 
 <i class="fa-solid fa-compass"></i> 恭喜您已经成功打开了Dearun，接下来将向您介绍这个软件的功能：
-- 计算传统Radial模型（CCR、BCC）、SBM模型、WSBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型的效率值 （可输出λ系数矩阵与权重系数矩阵）
+- 计算传统Radial模型（CCR、BCC）、SBM模型、WSBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型、整数DEA模型的效率值
 - 计算FDH模型的效率值
+- 可输出λ系数矩阵与权重系数矩阵
 - 可以计算六种主流的交叉效率模型 
 - Pessimistic CCR投入导向模型、CCR产出导向模型   
 - 可通过ZSG-DEA模型进行资源分配
-- 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型的超效率值
+- 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型、WSBM模型的超效率值
 - 可以处理包含非期望产出的情况（除EBM模型外）
-- 针对以上模型可以选取不同的规模报酬性，分别是：CRS（constant returns to scale），VRS（variable returns to scale）
+- 针对以上模型可以选取不同的规模报酬性，分别是：CRS (constant returns to scale), VRS (variable returns to scale), NIRS (non-increasing returns to scale) , NDRS (non-decreasing returns-to-scale)
 - 选择传统Radial模型，可以判断规模报酬情况（IRS、CRS、DRS）
-- 计算基于**相邻参比**与**全局参比**的CCR、SBM、SBM超效率、DDF、EBM的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值  
+- 计算基于**相邻参比**与**全局参比**的CCR、CCR超效率、SBM、SBM超效率、DDF、EBM、EBM超效率的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值  
 - 计算ML指数模型与GML指数模型
 - 计算全局参比的Directional SBM模型、Non-radial DDF模型的Malmquist Luenberger指数与Luenberger指数
 - 计算窗口DEA模型，可自行设置窗口期
 - 计算Meta-frontier模型
+- 计算Meta-frontier Malmquist模型
 - 计算多种基础的两阶段网络DEA模型（包含投入、共享投入、中间产品、产出)
 - 无需额外安装低版本的Excel，兼容性好
-
-<img src="\images\涵盖的模型.png" width = "900" height = "400" alt="图片无法加载" align=center /></img>
-
+<img src="\images\涵盖的模型 - 副本.png" width = "900" height = "400" alt="图片无法加载" align=center /></img>
 ## 4 软件使用说明
 <i class="fa-solid fa-book-bookmark"></i>  请在软件中点击不同模型的`帮助`按钮获取帮助文件
 <div style='display: none'>
@@ -91,12 +90,13 @@
 <i class="fa-solid fa-battery-empty"></i>  直接下载的版本为Dearun Trial版 {{< version 2.1.7>}}，内置`License`，为功能限制的版本，提供了以下普通效率模型的测算:
 1. 投入与产出导向的CCR、BCC模型
 2. 非径向的SBM模型（可包含非期望产出，可选择导向）
-3. 投入与产出导向的CCR、BCC超效率模型
-4. Meta-frontier CCR、BCC、SBM模型
-5. 投入与产出导向的CCR、BCC模型的Malmquist指数（全局参比、相邻参比）
-6. SBM模型的Malmquist指数（全局参比）
-7. Meta-frontier CCR、BCC、SBM Malmuqist指数（全局参比）
-8. 两阶段乘性网络DEA模型      
+3. 非径向的Weighted SBM模型
+4. 投入与产出导向的CCR超效率、BCC超效率模型
+5. Meta-frontier CCR、BCC、SBM、Weighted SBM、CCR超效率、BCC超效率模型
+6. 投入与产出导向的CCR、BCC、CCR超效率、BCC超效率模型的Malmquist指数（全局参比、相邻参比）
+7. SBM模型的Malmquist指数（全局参比）
+8. Meta-frontier CCR、BCC、SBM Malmuqist指数（全局参比）
+9. 两阶段乘性网络DEA模型      
 
 <i class="fa-solid fa-compass"></i>   为了更多的研究人员可以快速入手DEA模型，Dearun正在开放下载与许可申请。如您为学术使用用途，将为您提供一定时间内的Dearun Standard版许可，许可期内求解次数不限。具体申请方式请点击[Dearun许可申请 <i class="fa-solid fa-up-right-from-square"></i>](../application/)，填写表单进行提交申请，建议准备好数据并整理好格式后申请。审核通过后将发送到邮箱中，收到邮件后请及时激活。同时也提供长期的软件使用许可，详情请点击页面下方的联系方式进行咨询。
 
@@ -112,6 +112,15 @@
 > - {{< version 1.1.0 changed >}} 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
 
+{{< version 3.0.2 >}} `更新时间：2022年12月20日`  
+<i class="fa-solid fa-check"></i>  新增投入导向与产出导向的整数DEA模型       
+<i class="fa-solid fa-check"></i>  规模报酬新增`规模报酬非增NIRS`与`规模报酬非减NDRS`选项      
+<i class="fa-solid fa-check"></i>  新增Directional SBM、Weighted SBM、Weighted SBM超效率、Directional SBM超效率 Meta-frontier（共同前沿）模型     
+<i class="fa-solid fa-check"></i>  新增CCR超效率模型（投入/产出导向）、DDF超效率模型的相邻参比/全局参比的Malmquist指数       
+<i class="fa-solid fa-check"></i>  全面优化<动态指数>模块的算法，大幅提升指数的计算速度   
+<i class="fa-solid fa-check"></i>   Trial版新增`Weighted SBM模型`与`FDH模型`
+ 
+{{< admonition type=abstract title="近期版本更新内容 v3.0.0-3.0.1" open=false >}}
 {{< version 3.0.1.4-6 >}} `更新时间：2022年12月19日`   
 <i class="fa-solid fa-check"></i>  新增了软件中表格可以直接复制的功能     
 <i class="fa-solid fa-check"></i>  新增FDH (Free disposal hull) 模型 (投入与产出导向)    
@@ -143,8 +152,8 @@
 <i class="fa-solid fa-check"></i>  在有网络的情况下，软件启动后会自动检查更新  
 <i class="fa-solid fa-check"></i>  Dearun trial版本新增了一个可以直接使用的模型：SBM模型的全局Malmquist指数  
 <i class="fa-solid fa-check"></i>  优化了界面UI，提示更为直观，同时修复其他错误  
-
-{{< admonition type=abstract title="近期版本更新内容 v2.0.0-2.1.7" open=false >}}
+{{< /admonition >}}
+{{< admonition type=abstract title="以往版本更新内容 v2.0.0-2.1.7" open=false >}}
 {{< version 2.1.8-2.1.9 >}} `更新时间：2022年9月27日`  
 <i class="fa-solid fa-check"></i>  在无导向SBM模型的基础上新增了投入导向与产出导向的SBM模型  
 <i class="fa-solid fa-check"></i>  在无导向SBM超效率模型的基础上新增了投入导向与产出导向的SBM超效率模型    
@@ -173,9 +182,9 @@
  <i class="fa-solid fa-check"></i> 软件内新增`帮助`按钮，详细介绍了模型选取与数据导入的格式  
 {{< /admonition >}}
 
-*如果您想查更早版本更新信息，请点击下方`以往版本更新内容 v1.0.1-1.1.3`。*
+*如果您想查更早版本更新信息，请点击下方`较早版本更新内容 v1.0.1-1.1.3`。*
 
-{{< admonition type=abstract title="以往版本更新内容  v1.0.1-1.1.3" open=false >}}
+{{< admonition type=abstract title="较早版本更新内容  v1.0.1-1.1.3" open=false >}}
 <i class="fa-solid fa-champagne-glasses"></i> **1.1.3 版本更新时间：2022年7月14日**   
 <i class="fa-solid fa-check"></i> 优化页面  
 <i class="fa-solid fa-check"></i> 为了更直观展示结果，`结果输出表格展示`一栏的数据小数点默认保留5位（而保存在excel内的结果数据仍不受影响，为原始输出结果数据）    

@@ -2,7 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://deadearun.github.io/dearun/</loc><lastmod>2022-12-19T00:10:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://deadearun.github.io/dearun/</loc><lastmod>2022-12-20T00:10:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://deadearun.github.io/en/dearun/"
@@ -11,13 +11,13 @@
                     hreflang="zh-cn"
                     href="https://deadearun.github.io/dearun/"
                     /></url><url>
-            <loc>https://deadearun.github.io/application/</loc><lastmod>2022-12-19T01:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://deadearun.github.io/application/</loc><lastmod>2022-12-20T01:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://deadearun.github.io/method/</loc><lastmod>2022-08-01T01:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://deadearun.github.io/sbmrun/</loc><lastmod>2022-12-19T01:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://deadearun.github.io/data/</loc><lastmod>2022-10-25T01:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://deadearun.github.io/query/</loc><lastmod>2022-12-19T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://deadearun.github.io/data/</loc><lastmod>2022-12-20T01:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://deadearun.github.io/query/</loc><lastmod>2022-12-20T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://deadearun.github.io/dea_scale/</loc><lastmod>2022-09-21T12:20:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://deadearun.github.io/categories/</loc><lastmod>2022-12-19T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://deadearun.github.io/categories/</loc><lastmod>2022-12-20T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://deadearun.github.io/en/categories/"
@@ -26,7 +26,7 @@
                     hreflang="zh-cn"
                     href="https://deadearun.github.io/categories/"
                     /></url><url>
-            <loc>https://deadearun.github.io/tags/dearun/</loc><lastmod>2022-12-19T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://deadearun.github.io/tags/dearun/</loc><lastmod>2022-12-20T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://deadearun.github.io/en/tags/dearun/"
@@ -35,7 +35,7 @@
                     hreflang="zh-cn"
                     href="https://deadearun.github.io/tags/dearun/"
                     /></url><url>
-            <loc>https://deadearun.github.io/</loc><lastmod>2022-12-19T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://deadearun.github.io/</loc><lastmod>2022-12-20T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://deadearun.github.io/en/"
@@ -44,7 +44,7 @@
                     hreflang="zh-cn"
                     href="https://deadearun.github.io/"
                     /></url><url>
-            <loc>https://deadearun.github.io/posts/</loc><lastmod>2022-12-19T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://deadearun.github.io/posts/</loc><lastmod>2022-12-20T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://deadearun.github.io/en/posts/"
@@ -53,7 +53,7 @@
                     hreflang="zh-cn"
                     href="https://deadearun.github.io/posts/"
                     /></url><url>
-            <loc>https://deadearun.github.io/tags/</loc><lastmod>2022-12-19T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://deadearun.github.io/tags/</loc><lastmod>2022-12-20T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://deadearun.github.io/en/tags/"
@@ -62,7 +62,7 @@
                     hreflang="zh-cn"
                     href="https://deadearun.github.io/tags/"
                     /></url><url>
-            <loc>https://deadearun.github.io/categories/tool/</loc><lastmod>2022-12-19T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://deadearun.github.io/categories/tool/</loc><lastmod>2022-12-20T13:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://deadearun.github.io/en/categories/tool/"
@@ -72,6 +72,6 @@
                     href="https://deadearun.github.io/categories/tool/"
                     /></url><url>
             <loc>https://deadearun.github.io/tags/sbmrun/</loc><lastmod>2022-12-19T01:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://deadearun.github.io/categories/data/</loc><lastmod>2022-10-25T01:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://deadearun.github.io/categories/data/</loc><lastmod>2022-12-20T01:26:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://deadearun.github.io/categories/model/</loc><lastmod>2022-09-21T12:20:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://deadearun.github.io/tags/research/</loc><lastmod>2022-09-21T12:20:24&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

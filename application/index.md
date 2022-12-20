@@ -11,7 +11,7 @@
 > 注：暂不支持Mac系统  
 
 **目前可求解的模型**：
-<img src="\images\涵盖的模型.png" width = "900" height = "450" alt="图片无法加载" align=center /></img>
+{{< figure src="/images/涵盖的模型 - 副本.png" title="Dearun软件支持的模型" >}}
 > 更多模型正在不断开发中...尽请期待
 
 ## 获取Dearun许可

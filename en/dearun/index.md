@@ -52,19 +52,20 @@
 ## 3 Dearun Features
 
 <i class="fa-solid fa-compass"></i> Congratulations! you have successfully opened Dearun and will be introduced to the functions of the software:  
-- Calculation of efficiency values for conventional Radial (CCR, BCC), SBM, WSBM, DDF, EBM, MinDP (minimum distance to frontier), Directional SBM, Non-radial DDF models 
+- Calculation of efficiency values for conventional Radial (CCR, BCC), SBM, WSBM, DDF, EBM, MinDP (minimum distance to frontier), Directional SBM, Non-radial DDF, Integer DEA models 
 - Calculation of efficiency value for FDH model
 - Six mainstream cross-efficiency models can be calculated 
-- Pessimistic input oriented CCR model,output oriented CCR model, SBM model  
+- Pessimistic input oriented CCR model,output oriented CCR model  
 - ZSG-DEA model
-- Calculation of super-efficiency values for conventional Radial, SBM, DDF, EBM and Directional SBM models
+- Calculation of super-efficiency values for conventional Radial, SBM, DDF, EBM, Directional SBM, and WSBM models
 - handle cases that include undesirable outputs (except for EBM models)
-- Different returns to scale assumptions can be chosen for the above models: CRS (constant returns to scale), VRS (variable returns to scale)
-- Calculate **adjacent** or **global** Malmquist index for CCR, SBM, SBM super-efficiency, DDF, EBM based on  and decompose into technological change and efficiency change
+- Different returns to scale assumptions can be chosen for the above models: CRS (constant returns to scale), VRS (variable returns to scale), NIRS (non-increasing returns to scale) , NDRS (non-decreasing returns-to-scale)
+- Calculate **adjacent** or **global** Malmquist index for CCR, CCR super-efficiency, SBM, SBM super-efficiency, DDF, EBM, EBM super-efficiency based on  and decompose into technological change and efficiency change
 - Calculation of ML index and GML index models
 - Calculation of the global Malmquist Luenberger Index and global Luenberger Index for  Directional SBM model, Non-radial DDF model。
 - Calculation of windows DEA model with customizable window periods
 - Calculation of Meta-frontier model 
+- Calculation of Meta-frontier Malmquist model 
 - Calculation of various basic two-stage network DEA models (including inputs, shared inputs, intermediate products, outputs)
 - No additional installation of lower versions of Excel, good compatibility
 

@@ -8,6 +8,7 @@
 - **两阶段网络模型**示例数据： [两阶段网络dea示例数据1](/网络dea实例数据.xlsx)  
 - **共享投入两阶段模型**示例数据： [两阶段网络dea示例数据2](/共享测试数据.xlsx)  
 - **Centralized两阶段模型**示例数据： [两阶段网络dea示例数据3](/CentralizedmodelData.xlsx)  
+- **整数DEA模型**示例数据： [整数DEA示例数据](/整数dea数据.xlsx)  
 </br>
 
  <i class="fa-solid fa-headphones"></i> 学习之余，放松一下，听个音乐~

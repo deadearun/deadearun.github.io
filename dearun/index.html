@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="zh-CN">
     <head>
@@ -124,7 +123,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Dearun使用指南</h1><h2 class="single-subtitle">User&#39;s Guide</h2><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="dearun" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>admin</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/tool/"><i class="far fa-folder fa-fw"></i>tool</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-05-01">2022-05-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 5573 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-05-01">2022-05-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 5931 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 12 分钟&nbsp;<span id="/dearun/" class="leancloud_visitors" data-flag-title="Dearun使用指南">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -171,7 +170,7 @@
 <p>    如果当前网站访问较慢，或者部分图片无法加载，请点击此网站：<i class="fa-solid fa-circle-right"></i>   <a href="https://dearun.top/dearun/" target="_blank" rel="noopener noreffer">备用链接1</a>  
 <a href="https://dearun.buzz/dearun/" target="_blank" rel="noopener noreffer">备用链接2</a> 
 <a href="https://dearun.club/dearun/" target="_blank" rel="noopener noreffer">备用链接3</a></p>
-<p>    &gt; Dearun软件最新版本： <strong>3.0.1</strong></p>
+<p>    &gt; Dearun软件最新版本： <strong>3.0.2</strong></p>
 <h2 id="2-下载与安装">2 下载与安装</h2>
 <blockquote>
 <p>本软件目前只支持64位Windows系统下载使用，暂不支持mac系统<br>
@@ -243,24 +242,26 @@ title="LoveIt 新增 | 2.1.7" /></div>
 <h2 id="3-dearun功能介绍">3 Dearun功能介绍</h2>
 <p><i class="fa-solid fa-compass"></i> 恭喜您已经成功打开了Dearun，接下来将向您介绍这个软件的功能：</p>
 <ul>
-<li>计算传统Radial模型（CCR、BCC）、SBM模型、WSBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型的效率值 （可输出λ系数矩阵与权重系数矩阵）</li>
+<li>计算传统Radial模型（CCR、BCC）、SBM模型、WSBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型、整数DEA模型的效率值</li>
 <li>计算FDH模型的效率值</li>
+<li>可输出λ系数矩阵与权重系数矩阵</li>
 <li>可以计算六种主流的交叉效率模型</li>
 <li>Pessimistic CCR投入导向模型、CCR产出导向模型</li>
 <li>可通过ZSG-DEA模型进行资源分配</li>
-<li>计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型的超效率值</li>
+<li>计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型、WSBM模型的超效率值</li>
 <li>可以处理包含非期望产出的情况（除EBM模型外）</li>
-<li>针对以上模型可以选取不同的规模报酬性，分别是：CRS（constant returns to scale），VRS（variable returns to scale）</li>
+<li>针对以上模型可以选取不同的规模报酬性，分别是：CRS (constant returns to scale), VRS (variable returns to scale), NIRS (non-increasing returns to scale) , NDRS (non-decreasing returns-to-scale)</li>
 <li>选择传统Radial模型，可以判断规模报酬情况（IRS、CRS、DRS）</li>
-<li>计算基于<strong>相邻参比</strong>与<strong>全局参比</strong>的CCR、SBM、SBM超效率、DDF、EBM的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值</li>
+<li>计算基于<strong>相邻参比</strong>与<strong>全局参比</strong>的CCR、CCR超效率、SBM、SBM超效率、DDF、EBM、EBM超效率的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值</li>
 <li>计算ML指数模型与GML指数模型</li>
 <li>计算全局参比的Directional SBM模型、Non-radial DDF模型的Malmquist Luenberger指数与Luenberger指数</li>
 <li>计算窗口DEA模型，可自行设置窗口期</li>
 <li>计算Meta-frontier模型</li>
+<li>计算Meta-frontier Malmquist模型</li>
 <li>计算多种基础的两阶段网络DEA模型（包含投入、共享投入、中间产品、产出)</li>
-<li>无需额外安装低版本的Excel，兼容性好</li>
+<li>无需额外安装低版本的Excel，兼容性好
+<img src="\images\涵盖的模型 - 副本.png" width = "900" height = "400" alt="图片无法加载" align=center /></img></li>
 </ul>
-<p><img src="\images\涵盖的模型.png" width = "900" height = "400" alt="图片无法加载" align=center /></img></p>
 <h2 id="4-软件使用说明">4 软件使用说明</h2>
 <p><i class="fa-solid fa-book-bookmark"></i>  请在软件中点击不同模型的<code>帮助</code>按钮获取帮助文件</p>
 <div style='display: none'>
@@ -287,9 +288,10 @@ title="LoveIt 新增 | 2.1.7" /></div>
 <ol>
 <li>投入与产出导向的CCR、BCC模型</li>
 <li>非径向的SBM模型（可包含非期望产出，可选择导向）</li>
-<li>投入与产出导向的CCR、BCC超效率模型</li>
-<li>Meta-frontier CCR、BCC、SBM模型</li>
-<li>投入与产出导向的CCR、BCC模型的Malmquist指数（全局参比、相邻参比）</li>
+<li>非径向的Weighted SBM模型</li>
+<li>投入与产出导向的CCR超效率、BCC超效率模型</li>
+<li>Meta-frontier CCR、BCC、SBM、Weighted SBM、CCR超效率、BCC超效率模型</li>
+<li>投入与产出导向的CCR、BCC、CCR超效率、BCC超效率模型的Malmquist指数（全局参比、相邻参比）</li>
 <li>SBM模型的Malmquist指数（全局参比）</li>
 <li>Meta-frontier CCR、BCC、SBM Malmuqist指数（全局参比）</li>
 <li>两阶段乘性网络DEA模型</li>
@@ -317,11 +319,30 @@ title="LoveIt 新增 | 2.1.7" /></div>
 <p><img
         class="lazyload version"
         src="/svg/loading.min.svg"
-        data-src="/svg/version/3.0.1.4-6-new.zh-cn.min.svg"
-        data-srcset="/svg/version/3.0.1.4-6-new.zh-cn.min.svg, /svg/version/3.0.1.4-6-new.zh-cn.min.svg 1.5x, /svg/version/3.0.1.4-6-new.zh-cn.min.svg 2x"
+        data-src="/svg/version/3.0.2-new.zh-cn.min.svg"
+        data-srcset="/svg/version/3.0.2-new.zh-cn.min.svg, /svg/version/3.0.2-new.zh-cn.min.svg 1.5x, /svg/version/3.0.2-new.zh-cn.min.svg 2x"
         data-sizes="auto"
-        alt="LoveIt 新增 | 3.0.1.4-6"
-        title="LoveIt 新增 | 3.0.1.4-6" /> <code>更新时间：2022年12月19日</code><br>
+        alt="LoveIt 新增 | 3.0.2"
+        title="LoveIt 新增 | 3.0.2" /> <code>更新时间：2022年12月20日</code><br>
+<i class="fa-solid fa-check"></i>  新增投入导向与产出导向的整数DEA模型    <br>
+<i class="fa-solid fa-check"></i>  规模报酬新增<code>规模报酬非增NIRS</code>与<code>规模报酬非减NDRS</code>选项   <br>
+<i class="fa-solid fa-check"></i>  新增Directional SBM、Weighted SBM、Weighted SBM超效率、Directional SBM超效率 Meta-frontier（共同前沿）模型  <br>
+<i class="fa-solid fa-check"></i>  新增CCR超效率模型（投入/产出导向）、DDF超效率模型的相邻参比/全局参比的Malmquist指数    <br>
+<i class="fa-solid fa-check"></i>  全面优化&lt;动态指数&gt;模块的算法，大幅提升指数的计算速度<br>
+<i class="fa-solid fa-check"></i>   Trial版新增<code>Weighted SBM模型</code>与<code>FDH模型</code></p>
+<p><div class="details admonition abstract">
+        <div class="details-summary admonition-title">
+            <i class="icon fas fa-list-ul fa-fw"></i>近期版本更新内容 v3.0.0-3.0.1<i class="details-icon fas fa-angle-right fa-fw"></i>
+        </div>
+        <div class="details-content">
+            <div class="admonition-content"><p><img
+class="lazyload version"
+src="/svg/loading.min.svg"
+data-src="/svg/version/3.0.1.4-6-new.zh-cn.min.svg"
+data-srcset="/svg/version/3.0.1.4-6-new.zh-cn.min.svg, /svg/version/3.0.1.4-6-new.zh-cn.min.svg 1.5x, /svg/version/3.0.1.4-6-new.zh-cn.min.svg 2x"
+data-sizes="auto"
+alt="LoveIt 新增 | 3.0.1.4-6"
+title="LoveIt 新增 | 3.0.1.4-6" /> <code>更新时间：2022年12月19日</code><br>
 <i class="fa-solid fa-check"></i>  新增了软件中表格可以直接复制的功能  <br>
 <i class="fa-solid fa-check"></i>  新增FDH (Free disposal hull) 模型 (投入与产出导向) <br>
 <i class="fa-solid fa-check"></i>  <code>交叉效率模型</code>新增导出交叉效率矩阵功能<br>
@@ -334,23 +355,23 @@ title="LoveIt 新增 | 2.1.7" /></div>
 <i class="fa-solid fa-check"></i>  如导入面板数据，新增检查是否满足软件所需平衡面板数据格式的功能<br>
 <i class="fa-solid fa-check"></i>  减少了计算过程中闪退的情况</p>
 <p><img
-        class="lazyload version"
-        src="/svg/loading.min.svg"
-        data-src="/svg/version/3.0.1.1-3-new.zh-cn.min.svg"
-        data-srcset="/svg/version/3.0.1.1-3-new.zh-cn.min.svg, /svg/version/3.0.1.1-3-new.zh-cn.min.svg 1.5x, /svg/version/3.0.1.1-3-new.zh-cn.min.svg 2x"
-        data-sizes="auto"
-        alt="LoveIt 新增 | 3.0.1.1-3"
-        title="LoveIt 新增 | 3.0.1.1-3" /> <code>更新时间：2022年11月14日</code><br>
+class="lazyload version"
+src="/svg/loading.min.svg"
+data-src="/svg/version/3.0.1.1-3-new.zh-cn.min.svg"
+data-srcset="/svg/version/3.0.1.1-3-new.zh-cn.min.svg, /svg/version/3.0.1.1-3-new.zh-cn.min.svg 1.5x, /svg/version/3.0.1.1-3-new.zh-cn.min.svg 2x"
+data-sizes="auto"
+alt="LoveIt 新增 | 3.0.1.1-3"
+title="LoveIt 新增 | 3.0.1.1-3" /> <code>更新时间：2022年11月14日</code><br>
 <i class="fa-solid fa-check"></i>  提升了软件运行的稳定性<br>
 <i class="fa-solid fa-check"></i>  网络SBM模型中加入设置非期望产出的选项，并可以分别设置两个阶段的权重</p>
 <p><img
-        class="lazyload version"
-        src="/svg/loading.min.svg"
-        data-src="/svg/version/3.0.1-new.zh-cn.min.svg"
-        data-srcset="/svg/version/3.0.1-new.zh-cn.min.svg, /svg/version/3.0.1-new.zh-cn.min.svg 1.5x, /svg/version/3.0.1-new.zh-cn.min.svg 2x"
-        data-sizes="auto"
-        alt="LoveIt 新增 | 3.0.1"
-        title="LoveIt 新增 | 3.0.1" /> <code>更新时间：2022年11月10日</code><br>
+class="lazyload version"
+src="/svg/loading.min.svg"
+data-src="/svg/version/3.0.1-new.zh-cn.min.svg"
+data-srcset="/svg/version/3.0.1-new.zh-cn.min.svg, /svg/version/3.0.1-new.zh-cn.min.svg 1.5x, /svg/version/3.0.1-new.zh-cn.min.svg 2x"
+data-sizes="auto"
+alt="LoveIt 新增 | 3.0.1"
+title="LoveIt 新增 | 3.0.1" /> <code>更新时间：2022年11月10日</code><br>
 <strong>注：本次更新需要重新下载安装包，无法在软件内点击<code>检查更新</code>进行更新。</strong><br>
 <i class="fa-solid fa-check"></i>  “常规效率模型”、“超效率模型”、“网络DEA”选项卡增添了计算面板数据效率值的功能，只需要导入面板数据后，点击“包含时期列”，即可得到面板数据的全局效率值<br>
 <i class="fa-solid fa-check"></i>  加入Pessimistic CCR投入导向、CCR产出导向、SBM模型<br>
@@ -363,9 +384,12 @@ title="LoveIt 新增 | 2.1.7" /></div>
 <i class="fa-solid fa-check"></i>  在有网络的情况下，软件启动后会自动检查更新<br>
 <i class="fa-solid fa-check"></i>  Dearun trial版本新增了一个可以直接使用的模型：SBM模型的全局Malmquist指数<br>
 <i class="fa-solid fa-check"></i>  优化了界面UI，提示更为直观，同时修复其他错误</p>
+</div>
+        </div>
+    </div>
 <div class="details admonition abstract">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-list-ul fa-fw"></i>近期版本更新内容 v2.0.0-2.1.7<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-list-ul fa-fw"></i>以往版本更新内容 v2.0.0-2.1.7<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><p><img
@@ -437,11 +461,11 @@ title="LoveIt 新增 | 2.0.0" /> <code>更新时间：2022年7月18日</code><br
 <i class="fa-solid fa-check"></i> 软件内新增<code>帮助</code>按钮，详细介绍了模型选取与数据导入的格式</p>
 </div>
         </div>
-    </div>
-<p><em>如果您想查更早版本更新信息，请点击下方<code>以往版本更新内容 v1.0.1-1.1.3</code>。</em></p>
+    </div></p>
+<p><em>如果您想查更早版本更新信息，请点击下方<code>较早版本更新内容 v1.0.1-1.1.3</code>。</em></p>
 <div class="details admonition abstract">
         <div class="details-summary admonition-title">
-            <i class="icon fas fa-list-ul fa-fw"></i>以往版本更新内容  v1.0.1-1.1.3<i class="details-icon fas fa-angle-right fa-fw"></i>
+            <i class="icon fas fa-list-ul fa-fw"></i>较早版本更新内容  v1.0.1-1.1.3<i class="details-icon fas fa-angle-right fa-fw"></i>
         </div>
         <div class="details-content">
             <div class="admonition-content"><p><i class="fa-solid fa-champagne-glasses"></i> <strong>1.1.3 版本更新时间：2022年7月14日</strong><br>
@@ -511,7 +535,7 @@ title="LoveIt 新增 | 2.0.0" /> <code>更新时间：2022年7月18日</code><br
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2022-12-19</span>
+                <span>更新于 2022-12-20</span>
             </div>
             <div class="post-info-license"></div>
         </div>

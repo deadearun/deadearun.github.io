@@ -11,14 +11,15 @@
 ### Dearun软件版本介绍
 #### Dearun Trial版
 网站上直接下载的版本为Dearun Trial版，为功能受限的版本。Trial版包含以下DEA模型：  
-- 投入与产出导向的CCR、BCC模型
-- 非径向的SBM模型（可包含非期望产出，可选择导向）
-- 投入与产出导向的CCR、BCC超效率模型
-- Meta-frontier CCR、BCC、SBM模型
-- 投入与产出导向的CCR、BCC模型的Malmquist指数（全局参比、相邻参比）
-- SBM模型的Malmquist指数（全局参比）
-- Meta-frontier CCR、BCC、SBM Malmuqist指数（全局参比）
-- 两阶段乘性网络DEA模型     
+1. 投入与产出导向的CCR、BCC模型
+2. 非径向的SBM模型（可包含非期望产出，可选择导向）
+3. 非径向的Weighted SBM模型
+4. 投入与产出导向的CCR超效率、BCC超效率模型
+5. Meta-frontier CCR、BCC、SBM、Weighted SBM、CCR超效率、BCC超效率模型
+6. 投入与产出导向的CCR、BCC、CCR超效率、BCC超效率模型的Malmquist指数（全局参比、相邻参比）
+7. SBM模型的Malmquist指数（全局参比）
+8. Meta-frontier CCR、BCC、SBM Malmuqist指数（全局参比）
+9. 两阶段乘性网络DEA模型    
 
 **注：**
 1. Dearun Trial版对数据规模没有限制，理论上可以支持大规模数据集的效率值测算。
@@ -26,16 +27,19 @@
 
 #### Dearun Standard版
 请先下载使用Dearun Trial版本，确保该软件可以在您的电脑上正常使用。Standard版包含以下模型：
-- 计算传统Radial模型（CCR、BCC）、SBM模型、Weighted SBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型的效率值
-- 可以计算四种主流的交叉效率模型 
-- Pessimistic CCR投入导向模型、CCR产出导向模型、SBM模型  
+- 计算传统Radial模型（CCR、BCC）、SBM模型、WSBM模型、DDF模型、EBM模型、MinDP（至前沿最小距离）、Directional SBM模型、Non-radial DDF模型、整数DEA模型的效率值
+- 计算FDH模型的效率值
+- 可输出λ系数矩阵与权重系数矩阵
+- 可以计算六种主流的交叉效率模型 
+- Pessimistic CCR投入导向模型、CCR产出导向模型   
 - 可通过ZSG-DEA模型进行资源分配
-- 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型的超效率值
+- 计算传统Radial模型、SBM模型、DDF模型、EBM模型、Directional SBM模型、WSBM模型的超效率值
 - 可以处理包含非期望产出的情况（除EBM模型外）
-- 针对以上模型可以选取不同的规模报酬性，分别是：CRS（constant returns to scale），VRS（variable returns to scale）
-- 计算基于**相邻参比**与**全局参比**的CCR、SBM、SBM超效率、DDF、EBM的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值  
-- 计算经典的ML指数模型与GML指数模型（基于DDF模型）
-- 计算基于全局参比的Directional SBM模型、Non-radial DDF模型的Malmquist Luenberger指数与Luenberger指数
+- 针对以上模型可以选取不同的规模报酬性，分别是：CRS (constant returns to scale), VRS (variable returns to scale), NIRS (non-increasing returns to scale) , NDRS (non-decreasing returns-to-scale)
+- 选择传统Radial模型，可以判断规模报酬情况（IRS、CRS、DRS）
+- 计算基于**相邻参比**与**全局参比**的CCR、CCR超效率、SBM、SBM超效率、DDF、EBM、EBM超效率的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值  
+- 计算ML指数模型与GML指数模型
+- 计算全局参比的Directional SBM模型、Non-radial DDF模型的Malmquist Luenberger指数与Luenberger指数
 - 计算窗口DEA模型，可自行设置窗口期
 - 计算Meta-frontier模型、Meta-frontier Malmquist指数模型
 - 计算多种基础的两阶段网络DEA模型（包含投入、共享投入、中间产品、产出)
