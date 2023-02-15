@@ -8,11 +8,11 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp; 大部分刚接触DEA的研究人员，可能都会对这类优化模型有着很深的疑惑，不知从何下手。如果想彻底明白DEA模型的机理，必须熟练掌握并运用运筹学的相关知识，包括如何建立、求解、分析优化模型，这意味着较高的学习成本。目前市面上也有一些软件来处理DEA模型，但是免费的软件只能求解简单的CCR/BCC模型，根本无法满足日常的研究需求。这也是开发本软件的初衷，其中包含了当前DEA研究领域的主流模型，包括基础效率模型、超效率模型、网络DEA模型以及动态Malmquist指数分析，并可以处理存在非期望产出的情形。本文将向您介绍**Dearun**软件的安装、运行流程，便于您更快的上手本软件。  
 
-&nbsp;&nbsp;&nbsp;&nbsp;如果当前网站访问较慢，或者部分图片无法加载，请点击此网站：<i class="fa-solid fa-circle-right"></i>   [备用链接1](https://dearun.top/dearun/) &nbsp;
-[备用链接2](https://dearun.buzz/dearun/)&nbsp;
-[备用链接3](https://dearun.club/dearun/)    
+<p style="color:orange;font-size:19px"><b>您当前浏览的是旧版Dearun官网，即将停止更新内容，请点此进入新版官网：</b></p> 
 
-&nbsp;&nbsp;&nbsp;&nbsp;> Dearun软件最新版本： **3.0.2**
+[Dearun官网](https://www.dearun.net)   
+
+&nbsp;&nbsp;&nbsp;&nbsp;> Dearun软件最新版本： **3.0.3**
 
 
 ## 2 下载与安装
@@ -24,7 +24,7 @@
 - 如上述链接无法加载，或者下载较慢，请点击此：[安装包下载](https://app.tmp.link/?tmpui_page=/file&ukey=62b76175bdce4)
 > 以上链接请用IE浏览器打开，用手机自带浏览器可能会报错</div>
 
-- 点击这里获取Dearun安装文件：<i class="fa-solid fa-file-zipper"></i> [下载链接 <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/Dearun_Setup.exe)
+- 点击这里获取Dearun安装文件：<i class="fa-solid fa-file-zipper"></i> [下载链接 <i class="fa-solid fa-up-right-from-square"></i>](https://wwoy.lanzouy.com/dearun)
 
 {{< admonition type=failure title="下载失败解决方案" open=true >}}
 1. 如果点击下载链接没反应，请更换浏览器重试；
@@ -43,7 +43,8 @@
 <img src="\images\应用.png" width = "70" height = "70" alt="图片无法加载" align=center /></img>
 > **如果您的电脑安装了360软件，由于软件没有数字签名，所以在使用过程中可能会被误判，但是请放心，绝对正常，请将`Dearun.exe`添加为信任文件**  
 
-- **注**  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：([license下载 <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/license.lic))，如果提示是否覆盖原文件，点击确认即可。**许可的名字不可改变，如果您下载了多个许可文件，导致许可文件后多了数字，如`license(1).lic`，请删除多余的数字，保持`license.lic`的格式。**
+- **注：**  如果打开软件提示license到期，请点击软件左下角**选项**进行更新许可。
+- **如您从官网申请并获取到许可后，请保持许可的名字改变，按照如下操作放入许可。** 需要注意的是，如果您下载过多个许可文件，导致许可文件后多了数字，如`license(1).lic`，请删除多余的数字，保持`license.lic`的格式。   
 <img src="\images\许可安装.png" width = "500" height = "300" alt="图片无法加载" align=center /></img>  
 - 顺利的话将会出现如下Dearun图形交互界面：
 
@@ -67,6 +68,7 @@
 - 可以处理包含非期望产出的情况（除EBM模型外）
 - 针对以上模型可以选取不同的规模报酬性，分别是：CRS (constant returns to scale), VRS (variable returns to scale), NIRS (non-increasing returns to scale) , NDRS (non-decreasing returns-to-scale)
 - 选择传统Radial模型，可以判断规模报酬情况（IRS、CRS、DRS）
+- 计算DEA拥挤理论相关模型：BCSW模型、WY模型
 - 计算基于**相邻参比**与**全局参比**的CCR、CCR超效率、SBM、SBM超效率、DDF、EBM、EBM超效率的Malmquist指数模型，并分解为技术进步与效率变化，同时给出计算过程中的效率值  
 - 计算ML指数模型与GML指数模型
 - 计算全局参比的Directional SBM模型、Non-radial DDF模型的Malmquist Luenberger指数与Luenberger指数
@@ -111,6 +113,9 @@
 > - 1.1.0版本之前，更新需要前往官网下载安装包，并提前备份好获取的license文件，安装完毕后，将备份好的license文件重新放入安装目录中
 > - {{< version 1.1.0 changed >}} 1.1.0版本之后，更新只需要点击`检查更新`按钮，点击确定更新后，将自动下载并安装新版本
 
+{{< version 3.0.3 >}} `更新时间：2023年2月10日`  
+<i class="fa-solid fa-check"></i>  新增BCSW模型与WY模型(DEA拥挤理论相关模型)       
+<i class="fa-solid fa-check"></i>  修复了整数DEA模型的计算问题  
 
 {{< version 3.0.2 >}} `更新时间：2022年12月20日`  
 <i class="fa-solid fa-check"></i>  新增投入导向与产出导向的整数DEA模型       

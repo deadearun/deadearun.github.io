@@ -15,20 +15,21 @@
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-book-bookmark"></i>  本文将向您介绍**SBMrun**软件的安装、运行流程，便于您更快的上手本软件。  
  
 
-**注：**  
-**如果软件下载提示报错，请更换浏览器进行下载**  
+**注：如果软件下载提示报错，请更换浏览器进行下载**  
 
 ### 下载与安装
 > 本软件目前只支持64位Windows系统下载使用，暂不支持mac系统  
 #### 下载
-- 点击这里获取SBMrun安装文件：<i class="fa-solid fa-file-zipper"></i> [下载链接](http://1.116.143.157/SBMrun_Setup.exe)
+- 点击这里获取SBMrun安装文件：<i class="fa-solid fa-file-zipper"></i> [下载链接](https://wwoy.lanzouy.com/SBMrun)
 
 {{< admonition type=failure title="下载失败解决方案" open=true >}}
 1. 如果点击下载链接没反应，请更换浏览器重试；
 2. 如果提示`无法安全下载SBMrun_Setup.exe`，请右键点击该提示，在弹出的对话框里选择`仍然保留`，即可开始下载。
 {{< /admonition >}}
 
-- **注**  如果打开软件提示license到期，请下载这个文件，并将其复制到软件安装的根目录下：([license下载 <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/license.lic))，会提示是否覆盖原文件，点击确认即可。**许可的名字不可改变，如果您下载了多个许可文件，导致许可文件后多了数字，如`license(1).lic`，请删除多余的数字，保持`license.lic`的格式。**
+- **注：如您从官网申请并获取到许可后，请保持许可的名字改变，按照如下操作放入许可。许可的名字不可改变，如果您下载了多个许可文件，导致许可文件后多了数字，如`license(1).lic`，请删除多余的数字，保持`license.lic`的格式。**
+
+
 <img src="\images\SBMrun许可安装.png" width = "500" height = "310" alt="图片无法加载" align=center /></img>  
 - 顺利的话将会出现如下SBMrun命令行交互界面：
 <img src="\images\展示_2.png" width = "600" height = "300" alt="图片无法加载" align=center /></img>  

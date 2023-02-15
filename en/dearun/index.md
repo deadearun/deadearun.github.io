@@ -8,9 +8,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-book-bookmark"></i>  Most researchers who are new to DEA will probably have deep doubts about this type of optimisation model and will not know where to start. If you want to thoroughly understand the mechanics of DEA models, you must master the knowledge of operational research, including how to build, solve and analyse optimisation models, which means a high learning cost. There are currently some software available on the market to handle DEA models, but the free software can only solve simple CCR/BCC models, which are simply not adequate for everyday research needs. This is the reason for the development of this software, which contains the current mainstream models in the field of DEA research, including basic efficiency models, super-efficiency models, network DEA models and dynamic Malmquist index analysis, and can handle situations where there are undesirable outputs. This article will introduce you to the installation and running process of **Dearun** software, so that you can get started with the software more quickly.
 
-&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-circle-right"></i>  If the current site is slow to access, or if some of the images do not load, please click on these sites:  [Alternative link 1](https://dearun.top/dearun/) &nbsp;
-[Alternative link 2](https://dearun.buzz/dearun/)&nbsp;
-[Alternative link 3](https://dearun.club/dearun/)    
 
 &nbsp;&nbsp;&nbsp;&nbsp;> Dearun software latest version： **3.0.1**
 
@@ -19,7 +16,7 @@
 > Dearun software is currently only available for 64-bit Windows systems and is not yet available for Mac.  
 ### Download
 
-- Click here for Dearun installation file：<i class="fa-solid fa-file-zipper"></i> [Download link <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/Dearun_Setup.exe)
+- Click here for Dearun installation file：<i class="fa-solid fa-file-zipper"></i> [Download link <i class="fa-solid fa-up-right-from-square"></i>](https://wwoy.lanzouy.com/dearun)
 
 {{< admonition type=failure title="Download failure solutions" open=true >}}
 1. if the download link does not respond, please change your browser and try again.
@@ -37,7 +34,7 @@
 3. Double click to run `Dearun.exe` on the desktop  
 <img src="\images\应用.png" width = "70" height = "70" alt="Image cannot be loaded" align=center /></img>
 
-- **Note**：  If you are prompted that the license is expired, please download this file and copy it to the root directory of the software installation: ([Download link <i class="fa-solid fa-up-right-from-square"></i>](http://1.116.143.157/license.lic)).  
+- **Note**：  If you apply and get the license from the official website, please download the license and copy it to the root directory of the software installation:
 <img src="\images\许可安装en.png" width = "500" height = "300" alt="Image cannot be loaded" align=center /></img>  
 - If you have done these steps correctly, the following screen will appear on your desktop:   
 
